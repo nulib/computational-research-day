@@ -1,0 +1,23 @@
+// Northwestern University :: Departmental Templates :: Header/Nav/Footer Version v2.0 - 13 December 2017
+// developed by Christopher Garcia, Senior Front End Web Developer; Global Marketing and Communications
+// Questions? Email: webcomm-support@northwestern.edu
+
+// the base (do not modify)
+@import "base/reset";
+@import "base/variables";
+@import "base/ie";
+@import "base/mixins-extends";
+@import "base/core";
+@import "base/typography";
+
+// the main sections (do not modify)
+@import "sections/header";
+@import "sections/search";
+@import "sections/top-nav";
+@import "sections/mobile-nav";
+@import "sections/footer";
+
+// add your own modules below
+
+// for specificity (do not modify)
+@import "base/buttons";
