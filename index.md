@@ -1,6 +1,4 @@
 ---
-layout: boilerplate
+layout: default
 ---
 {% include hero-image.html %}
-
-Hello world!

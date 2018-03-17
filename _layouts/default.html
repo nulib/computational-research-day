@@ -26,7 +26,11 @@
         {% include header/mobile-links.html %}
     </header>
     {% include navigation.html %}
-    {{ content }}
+    <div id="page">
+      <main id="main-content" class="content" tabindex="-1">
+        {{ content }}
+      </main>
+    </div>
     <footer>
         <div class="contain-970">
             {% include footer/required-links.html %}
