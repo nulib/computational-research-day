@@ -9,17 +9,33 @@
             </div>
         </div>
         <div id="global-links" aria-label="global links navigation">
-            <ul>
-                <li><a href="#">Global Link 1</a></li>
-                <li><a href="#">Global Link 2</a></li>
-                <li class="resources">Global Dropdown <span class="dropdown-arrow"></span>
-                    <ul>
-                        <li><a href="#">Global Drop Link 1</a></li>
-                        <li><a href="#">Global Drop Link 2</a></li>
-                        <li><a href="#">Global Drop Link 3</a></li>
-                    </ul>
-                </li>
-            </ul>
+
+          <ul>
+            {% for link in site.data.global-links.main %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = site.url | append: site.baseurl %}
+              {% endif %}
+              <li>
+                <a href="{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              </li>
+            {% endfor %}
+            <li class="resources">Browse <span class="dropdown-arrow"></span>
+                <ul>
+                  {% for link in site.data.navigation.main %}
+                    {% if link.url contains 'http' %}
+                      {% assign domain = '' %}
+                    {% else %}
+                      {% assign domain = site.url | append: site.baseurl %}
+                    {% endif %}
+                    <li>
+                      <a href="{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+            </li>
+          </ul>
         </div>
     </div>
 </div>

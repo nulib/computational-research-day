@@ -1,4 +1,3 @@
 ---
-layout: default
+layout: home
 ---
-{% include hero-image.html %}

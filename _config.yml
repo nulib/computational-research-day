@@ -1,0 +1,41 @@
+# Site settings
+title              : "Computational Research Day"
+description        : ""
+publisher          : "Northwestern University Libraries"
+url                :
+baseurl            :
+
+# Editorial
+editors:
+  name             : "Information Technology Research Computing"
+  avatar           : "/assets/images/nuit-avatar.png"
+  bio              : "Providing campus researchers across all disciplines access to computing resources and consulting services to support innovative research."
+  location         :
+  email            : "melanie.wilson@northwestern.edu"
+  uri              : "http://www.it.northwestern.edu/research/"
+  home             :
+  facebook         :
+  github           :
+  twitter          : "NUITResearch"
+  youtube          : "https://www.youtube.com/user/nuitcommunications"
+
+# Reading file
+include:
+exclude:
+keep_files:
+encoding: "utf-8"
+markdown_ext: "md"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page

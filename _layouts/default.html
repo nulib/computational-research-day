@@ -8,38 +8,7 @@
     <link rel="stylesheet" href="/assets/css/styles.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="/assets/css/print.css" type="text/css" media="print" />
     <!--[if lt IE 9]><script src="//common.northwestern.edu/v8/js/html5shiv-printshiv.js"></script><![endif]-->
-    <title>Northwestern University</title>
+    <title>Northwestern University | {{ site.title }}</title>
 </head>
-<body>
-    <a id="top"></a>
-    <a href="#main-content" class="screen-reader-shortcut">Skip to main content</a>
-    <!--[if lt IE 9]>
-    <div id="ie">
-        <p><img src="https://common.northwestern.edu/v8/css/images/icons/ie-warning.png" alt="Warning icon" /> Your browser is <strong>out-of-date</strong> and has known <strong>security flaws</strong>. We recommend you update your browser: <a href="http://www.google.com/chrome/" target="_blank">Chrome</a> - <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a> - <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">Internet Explorer</a> - <a href="https://www.apple.com/safari/" target="_blank">Safari</a>.</p>
-    </div>
-    <![endif]-->
-    <header>
-        <a href="#main-content" class="screen-reader-shortcut">Skip to main content</a>
-        {% include header/top-bar.html %}
-        {% include header/quick-links.html %}
-        {% include header/bottom-bar.html %}
-        {% include header/mobile-links.html %}
-    </header>
-    {% include navigation.html %}
-    <div id="page">
-      <main id="main-content" class="content" tabindex="-1">
-        {{ content }}
-      </main>
-    </div>
-    <footer>
-        <div class="contain-970">
-            {% include footer/required-links.html %}
-            {% include footer/contact-info.html %}
-            {% include footer/social-media.html %}
-            {% include footer/extra-links.html %}
-        </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="/assets/js/scripts.js"></script>
-</body>
+  {{ content }}
 </html>

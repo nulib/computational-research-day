@@ -1398,13 +1398,26 @@ header {
 .landing-page .small-hero .hero-image {
   height: 420px; }
 
-.standard-page .hero .hero-image {
-  height: 420px; }
-  .standard-page .hero .hero-image.tiny-hero-image {
-    height: 190px; }
-    .standard-page .hero .hero-image.tiny-hero-image h2 {
-      margin-bottom: 0; }
+/*
+.standard-page {
 
+    .hero {
+
+        .hero-image {
+            height: 420px;
+
+            &.tiny-hero-image { // for pages with smaller (than small) hero images (i.e. events page on top-level)
+                height: 190px;
+
+                h2 {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+*/
 @media screen and (max-width: 1000px) {
   .hero p {
     font-size: 48px; } }

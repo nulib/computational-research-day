@@ -1,0 +1,9 @@
+main:
+  - title: "Posters"
+    url: /posters/
+  - title: "Visualizations"
+    url: /visualizations/
+  - title: "Speakers"
+    url: /speakers/
+  - title: "About"
+    url: /about/
