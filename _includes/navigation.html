@@ -1,28 +1,14 @@
 <nav id="top-nav" aria-label="main navigation menu">
     <div class="contain-1120">
         <ul>
-            <li><a href="#">Browse <span class="dropdown-arrow"></span></a>
-                <ul class="dropdown" aria-label="navigation submenu">
-                    <li class="nav-intro">
-                        <p class="intro">Standard Dropdown</p>
-                        <a href="#" class="button" aria-label="enter descriptive text">Optional Button</a>
-                    </li>
-                    <li class="nav-links">
-                        <ul>
-                          {% for link in site.data.navigation.main %}
-                            {% if link.url contains 'http' %}
-                              {% assign domain = '' %}
-                            {% else %}
-                              {% assign domain = site.url | append: site.baseurl %}
-                            {% endif %}
-                            <li>
-                              <a href="{{ domain }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </li>
-                </ul>
-            </li>
+          {% for link in site.data.navigation.main %}
+            {% if link.url contains 'http' %}
+              {% assign domain = '' %}
+            {% else %}
+              {% assign domain = site.url | append: site.baseurl %}
+            {% endif %}
+            <li><a href="{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a></li>
+            {% endfor %}
         </ul>
-    </div>
-</nav>
+      </div>
+  </nav>

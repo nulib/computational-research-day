@@ -1819,7 +1819,8 @@ header {
   #top-nav .contain-1120 > ul {
     width: 100%;
     line-height: 0;
-    position: relative; }
+    position: relative;
+    display: table; }
     #top-nav .contain-1120 > ul a {
       color: #4e2a84;
       text-decoration: none;

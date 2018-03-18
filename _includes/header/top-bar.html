@@ -21,20 +21,6 @@
                 <a href="{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
               </li>
             {% endfor %}
-            <li class="resources">Browse <span class="dropdown-arrow"></span>
-                <ul>
-                  {% for link in site.data.navigation.main %}
-                    {% if link.url contains 'http' %}
-                      {% assign domain = '' %}
-                    {% else %}
-                      {% assign domain = site.url | append: site.baseurl %}
-                    {% endif %}
-                    <li>
-                      <a href="{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
-                    </li>
-                  {% endfor %}
-                </ul>
-            </li>
           </ul>
         </div>
     </div>

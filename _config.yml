@@ -7,11 +7,13 @@ baseurl            :
 
 # Editorial
 editors:
-  name             : "Information Technology Research Computing"
+  name             : "NUIT Research Computing"
   avatar           : "/assets/images/nuit-avatar.png"
   bio              : "Providing campus researchers across all disciplines access to computing resources and consulting services to support innovative research."
-  location         :
+  street_address   : "1970 Campus Drive"
+  town_zip         : "Evanston, IL 60640"
   email            : "melanie.wilson@northwestern.edu"
+  phone            : "847-367-5555"
   uri              : "http://www.it.northwestern.edu/research/"
   home             :
   facebook         :
@@ -39,3 +41,9 @@ defaults:
       type: pages
     values:
       layout: page
+  # _posters
+  - scope:
+      path: ""
+      type: posters
+    values:
+      layout: article

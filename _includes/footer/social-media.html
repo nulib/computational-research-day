@@ -1,21 +1,24 @@
 <div class="footer-content">
     <p><strong>Social Media</strong></p>
-    <a href="#" class="social facebook">Facebook</a>
-    <a href="#" class="social twitter">Twitter</a>
-    <a href="#" class="social social instagram">Instagram</a>
+    {% if site.editors.facebook %}
+    <a href="https://facebook.com/{{site.editors.facebook}}" class="social facebook">Facebook</a>
+    {% endif %}
+    {% if site.editors.twitter %}
+    <a href="https://twitter.com/{{ site.editors.twitter}}" class="social twitter">Twitter</a>
+    {% endif %}
+    {% if site.editors.instagram %}
+    <a href="https://instagram.com/{{site.editors.instagram}}" class="social social instagram">Instagram</a>
+    {% endif %}
+    {% if site.editors.rss %}
     <a href="#" class="social rss">RSS</a>
-    <a href="#" class="social youtube">YouTube</a>
-    <a href="#" class="social tumblr">Tumblr</a>
-    <a href="#" class="social wordpress">WordPress</a>
-    <a href="#" class="social futurity">Futurity</a>
-    <a href="#" class="social vimeo">Vimeo</a>
-    <a href="#" class="social linkedin">Linkedin</a>
-    <a href="#" class="social google-plus">Google Plus</a>
-    <a href="#" class="social google-groups">Google Groups</a>
-    <a href="#" class="social blog">Blog</a>
-    <a href="#" class="social github">Github</a>
-    <a href="#" class="social flickr">Flickr</a>
-    <a href="#" class="social storify">Storify</a>
-    <a href="#" class="social pinterest">Pinterest</a>
-    <a href="#" class="social we-will">We Will</a>
+    {% endif %}
+    {% if site.editors.youtube %}
+    <a href="{{ site.editors.youtube }}" class="social youtube">YouTube</a>
+    {% endif %}
+    {% if site.editors.linkedin %}
+    <a href="https://linkedin.com/{{site.editors.linkedin}}" class="social linkedin">Linkedin</a>
+    {% endif %}
+    {% if site.editors.facebook %}
+    <a href="https://github.com/{{site.editors.github}}" class="social github">Github</a>
+    {% endif %}
 </div>

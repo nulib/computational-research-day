@@ -1,0 +1,33 @@
+<div class="section contain-1120">
+	{% include section-top.html %}
+
+	{% for f in site.posters limit:3 %}
+		{% if f.url contains "://" %}
+			{% capture f_url %}{{ f.url }}{% endcapture %}
+		{% else %}
+			{% capture f_url %}{{ f.url | absolute_url }}{% endcapture %}
+		{% endif %}
+	<div class="alternate-photo-float">
+		<div class="image-left">
+			{% if f.image_path %}
+				<img src="{% if f.image_path contains "://" %}"{{ f.image_path }}"
+					{% else %}
+					"{{ f.image_path | absolute_url }}"
+					{% endif %}"
+				alt="{% if f.alt %}{{ f.alt }}{% endif %}" />
+		</div>
+			{% endif %}
+		<div class="text">
+			{% if f.title %}
+			<h4><a href="{{ f_url }}"{{ f.title }}</a></h4>
+			{% endif %}
+			{% if f.college %}
+				<h5><i class="fa fa-graduation-cap" aria-hidden="true"></i> {{ f.college }}</h5>
+			{% endif %}
+			{% if f.abstract %}
+				<p>{{ f.abstract | markdownify | strip_html | truncate: 220 }}</p>
+			{% endif %}
+		</div>
+	</div>
+	{% endfor %}
+</div>

@@ -17,20 +17,21 @@ layout: default
         {% include header/mobile-links.html %}
     </header>
 
+    {% include navigation.html %}
+
+    <div id="page">
+      <main class="content" id="main-content">
         {% include hero-image.html %}
-
-        {% include section-top.html %}
-
-        {% include alternate-photo-float.html %}
-
+        {% include featured-presentations.html %}
         {{ content }}
-
+      </main>
+    </div>
     <footer>
         <div class="contain-970">
             {% include footer/required-links.html %}
             {% include footer/contact-info.html %}
             {% include footer/social-media.html %}
-            {% include footer/extra-links.html %}
+            <!-- {% include footer/extra-links.html %} -->
         </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
