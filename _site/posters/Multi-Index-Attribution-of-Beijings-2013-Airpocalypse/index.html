@@ -1,0 +1,114 @@
+<h2 id="methods">Methods</h2>
+<p>We use an attribution framework developed by Dienbaugh et al. (2017), in which we evaluate the change in event magnitude from the observed timeseries to the detrended timeseries (A), the change in return interval (B) from the observed to the detrended timeseries (C) and from the pre-industrial to the historical simulations (D, F), and the likelihood of the observed trend in the historical and pre-industrial simulations (E).</p>
+
+<p><img src="/assets/images/2018/multi-index-attribution-of-beijings-2013-airpocalypse-1.png" alt="Figure 1" /></p>
+
+<p>We use the CESM Large Ensemble, a set of 30 realizations with dierent initial conditions, to generate a sample of the historical climate from 1979 to 2005 (Kay et al., 2015). The simulation is extended to 2016 by adding the first ten years of the corresponding RCP8.5 realization. This accounts for internal variability that may bias a single realization and more fully covers the probability space of the historical climate. We use the Large Ensemble’s pre-industrial control realization from 402-2200 to assess change from the pre-industrial to the historical climate.</p>
+
+<p>Observations are drawn from the NCEP R1 reanalysis project, calculated over the period from 1979-2016. We use January monthly-mean data for the PPI, DJF daily data for the HWI, and annual daily data for the ASI, following the methods used when each index was originated.</p>
+
+<p>We also extract the Air Temperature Gradient Index, a component of the PPI, to measure the spatial patterns of temperature inversions in the Beijing area. Inversions are dened using self-organizing map cluster analysis, which provides a set of the typical temperature gradient patterns in each simulation (Horton et al., 2015). We use a three-node confguration to represent the temperature gradient: a highly unstable atmosphere, a neutral gradient, and a highly stable atmosphere. The algorithm is trained on the observations, and the resulting patterns are applied to the simulations. We then apply the attribution metrics to the timeseries of maximum duration of node 3, as a proxy for the intensity of signifcant inversions over the Beijing area.</p>
+
+<h2 id="air-quality-indices">Air Quality Indices</h2>
+<ul>
+  <li>
+    <p>Haze Weather Index: Temperature gradient between 200mb and 850mb plus strength of 850 mb southerly winds plus an index of the weakening of northwesterly wind through Beijing. Daily resolution.</p>
+  </li>
+  <li>
+    <p>Air Stagnation Index: An index that determines whether a day is considered stagnant (if precipitation &lt; 1mm, surface winds &lt; 3.2 m/s, and 500-mb winds &lt; 13 m/s). Daily resolution.</p>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Pollution Potential Index: Air Temperature Gradient Index * 0.7) - (Wind Speed Index * -0.73) / (</td>
+          <td>0.7</td>
+          <td>+</td>
+          <td>-0.73</td>
+          <td>). Monthly-mean resolution.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <p>Air Temperature Gradient Index: Potential temperature at 925mb minus potential temperature at 1000mb, minus the long-term mean of that gradient divided by its standard deviation.</p>
+  </li>
+  <li>
+    <p>Wind Speed Index: Surface wind speed minus long-term mean surface wind speed, divided by the standard deviation of the surface wind speed.</p>
+  </li>
+  <li>Based on trends in both January ASI and annual ASI, the annual ASI appeared more meaningfui, so it is used as the basis for these calculations.</li>
+</ul>
+
+<h2 id="air-stagnation-index">Air Stagnation index</h2>
+<p>Trend (per year): 0.58 (p &lt; 0.002)
+Change in magnitude from trend: 1.48</p>
+
+<p><img src="/assets/images/2018/multi-index-attribution-of-beijings-2013-airpocalypse-2.png" alt="Figure 2" /></p>
+
+<p>GCM A-D test p = 0.92
+HIST fraction agree with trend: 55.2% (p = 0.399)</p>
+
+<p><img src="/assets/images/2018/multi-index-attribution-of-beijings-2013-airpocalypse-3.png" alt="Figure 3" /></p>
+
+<p>Median ∆return period from trend: 3.79 (100% &gt; 1)
+Median ∆return period PI/HIST: 1.004 (99.8% &gt; 1)</p>
+
+<p><img src="/assets/images/2018/multi-index-attribution-of-beijings-2013-airpocalypse-4.png" alt="Figure 4" /></p>
+
+<h2 id="haze-weather-index">Haze Weather Index</h2>
+
+<p><img src="/assets/images/2018/multi-index-attribution-of-beijings-2013-airpocalypse-5.png" alt="Figure 5" /></p>
+
+<p>Trend (per year): 7.16e-5 (p &lt; 3e-8)
+Change in magnitude from trend: 0.156
+Median ∆return period from trend: 1.57 (100% &gt; 1)</p>
+
+<p>GCM A-D p = 0.373
+HIST fraction agree with trend: 86.7% (p &lt; 3e-5)
+Median ∆return period PI/HIST: 1.01 (76.6% &gt; 1)</p>
+
+<p>The Haze Weather Index uses Five-day running
+mean data, so a timeseries plot was excluded
+due to legibility.</p>
+
+<h2 id="pollution-potential-index">Pollution Potential Index</h2>
+
+<p><img src="/assets/images/2018/multi-index-attribution-of-beijings-2013-airpocalypse-6.png" alt="Figure 6" /></p>
+
+<p>Trend (per year): 0.01 (p = 0.132)
+Change in magnitude from trend: 0.25
+Median ∆return period from trend: UNDEFINED
+GCM A-D p = 0.201
+HIST fraction agree with trend: 17.1% (p = 0.999)
+Median ∆return period PI/HIST: UNDEFINED</p>
+
+<p>The simulations do not capture the upper tail of the observations, so attempts to measure the 2013 event in the simulations return infinite return periods.</p>
+
+<h2 id="air-temperature-gradient-index-inversions">Air Temperature Gradient Index (Inversions)</h2>
+
+<p><img src="/assets/images/2018/multi-index-attribution-of-beijings-2013-airpocalypse-7.png" alt="Figure 7" /></p>
+
+<p>Trend (per year): 0.089 (p = 0.056)
+Change in magnitude from trend:
+0.43
+GCM A-D p = 0.056</p>
+
+<p>Median ∆return period from trend: 3.31 (84.7% &gt; 1)
+HIST fraction agree with trend: 56.7% (p = 0.033)
+Median ∆return period PI/HIST: 1.49 (79.6% &gt; 1)</p>
+
+<p><img src="/assets/images/2018/multi-index-attribution-of-beijings-2013-airpocalypse-8.png" alt="Figure 8" /></p>
+
+<h2 id="summary">Summary</h2>
+<ul>
+  <li>Some effect of climate change on some indices</li>
+  <li>Depends on definition of both index and event</li>
+  <li>Important to attribute both trend and event</li>
+</ul>
+
+<h2 id="future-directions">Future Directions</h2>
+<ul>
+  <li>Optimal cluster configuration for ATGI SOMs</li>
+  <li>Influence of snow cover on CESM PPI output</li>
+  <li>Synoptic circulation (e.g. GPH) and indices</li>
+</ul>

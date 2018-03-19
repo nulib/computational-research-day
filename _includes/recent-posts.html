@@ -1,0 +1,5 @@
+<article class="news">
+   <h4 class="news-title"><a href="{{ post.url | absolute_url }}">{{ title }}</a></h4>
+   <div class="news-date">{{ date }}</div>
+   <div class="news-description">{{ post.excerpt | markdownify | strip_html | truncate: 300 }}</div>
+</article>

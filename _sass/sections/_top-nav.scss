@@ -6,7 +6,7 @@
 
 // optional global links with available dropdown
 #top-nav {
-    background: $light-grey;
+    background: $nu-purple;
 
     .contain-1120 {
 
@@ -24,7 +24,7 @@
 
                 &:hover, &:focus, &:active {
                     text-decoration: underline;
-                }    
+                }
             }
 
             // external link icon
@@ -39,6 +39,7 @@
                 text-align: center;
                 line-height: 100%;
                 font: 18px $AkkuratProBold;
+                background: $light-grey;
 
                 &:hover, &.hover {
                     z-index: 100;

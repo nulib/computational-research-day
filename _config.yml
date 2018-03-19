@@ -28,22 +28,28 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "md"
 
+# Conversion
+markdown: kramdown
+highlighter: rouge
+
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-paginate
 
-# Defaults
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: page
-  # _posters
-  - scope:
-      path: ""
-      type: posters
-    values:
-      layout: article
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+  posters:
+    output: true
+    permalink: /:collection/:path/
+  visualizations:
+    output: true
+    permalink: /:collection/:path/

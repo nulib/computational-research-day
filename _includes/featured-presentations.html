@@ -8,7 +8,7 @@
 			{% capture f_url %}{{ f.url | absolute_url }}{% endcapture %}
 		{% endif %}
 	<div class="alternate-photo-float">
-		<div class="image-left">
+		<div class="image-right">
 			{% if f.image_path %}
 				<img src="{% if f.image_path contains "://" %}"{{ f.image_path }}"
 					{% else %}

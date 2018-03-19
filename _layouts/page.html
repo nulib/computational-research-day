@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
----
-layout: default
----
 <body class="standard-page">
     <a id="top"></a>
     <a href="#main-content" class="screen-reader-shortcut">Skip to main content</a>
@@ -15,14 +12,19 @@ layout: default
     <header>
         <a href="#main-content" class="screen-reader-shortcut">Skip to main content</a>
         {% include header/top-bar.html %}
-        {% include header/quick-links.html %}
         {% include header/bottom-bar.html %}
         {% include header/mobile-links.html %}
     </header>
 
         {% include navigation.html %}
 
-        {{ content }}
+    <div id="page">
+      <main id="main-content" class="content">
+
+      <h2>{{ page.title }}</h2>
+      {{ content }}
+      </main>
+    </div>
 
     <footer>
         <div class="contain-970">
