@@ -17,33 +17,33 @@ Northwestern Computational Research Day is hosted by Northwestern Information Te
   <div class="section">
     <div class="section-top contain-970">
       <h3>Event highlights</h3>
-      </div>
+    </div>
 </div>
 	<div class="alternate-photo-float">
 		<div class="image-left">
 			<img alt="image description" src="/assets/images/nu_templates/550x310-2.png"/>
 		</div>
 		<div class="text">
-			<h4><a href="/speakers/">Presentations</a></h4>
+			<h4><a href="/speakers/">Presentation Abstracts</a></h4>
 			<p>Keynote addresses from <a href="https://ischool.illinois.edu/people/faculty/vcs">Victoria Stodden</a>, Associate Professor of Information Sciences, <a href="http://illinois.edu/">University of Illinois at Urbana-Champaign</a> & <a href="http://sciencejedi.com/professional/">Shane Larson</a>, Associate Director of <a href="http://ciera.northwestern.edu/">CIERA (Center for Interdisciplinary Exploration and Research in Astrophysics</a> at Northwestern University. Morning and afternoon sessions featuring Northwestern faculty and graduate students.</p>
 		</div>
 	</div>
 	<div class="alternate-photo-float">
 		<div class="text">
 			<h4><a href="/posters/">Posters</a></h4>
-			<p>[Poster Competition](/posters/) highlighting Northwestern student and postdoctoral research</p>
+			<p>Selected poster presentations highlighting Northwestern student and postdoctoral research are available and archived by the library.</p>
 		</div>
 		<div class="image-right">
-			<img alt="image description" src="/assets/images/nu_templates/550x310-2.png"/>
+			<img alt="image description" src="/assets/images/posters-1.jpg"/>
 		</div>
 	</div>
 	<div class="alternate-photo-float">
 		<div class="image-left">
-			<img alt="image description" src="/assets/images/nu_templates/550x310-2.png"/>
+			<img alt="image description" style="width:550px;height:310px;" src="/assets/images/davidhead_animation.gif"/>
 		</div>
 		<div class="text">
     	<h4><a href="/visualizations/">Visualizations</a></h4>
-			<p>Visualization contest highlighting Northwestern student and postdoctoral research</p>
+			<p>Selected visualizations created by Northwestern students and postdoctoral researchers are presented as images, videos, and interactive graphics.</p>
 		</div>
 	</div>
 </div>
