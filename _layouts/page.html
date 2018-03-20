@@ -21,8 +21,17 @@ layout: default
     <div id="page">
       <main id="main-content" class="content">
 
-      <h2>{{ page.title }}</h2>
-      {{ content }}
+        <h2>{{ page.title }}</h2>
+
+        {% for poster in site.posters %}
+        <article class="news">
+        	<a href="{{ poster.url }}"><img alt="{{ poster.abstract | trucatewords: 10 }}" src="{{ poster.image_path }}" style="max-width:265px;max-height:265px;"/></a>
+        	<h4 class="news-title"><a href="{{ poster.url }}">{{ poster.title }}</a></h4>
+          <div class="news-date" style="color: grey">{{ poster.authors }}</div>
+        	<div class="news-date">{{ poster.date | date: "%B %d, %Y" }}</div>
+        	<div class="news-description">{{ poster.abstract }}</div>
+        </article>
+        {% endfor %}
       </main>
     </div>
 

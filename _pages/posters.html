@@ -3,8 +3,30 @@ layout: page
 permalink: /posters/
 title: "Posters"
 ---
-{% for p in site.posters %}
-  <h2>{{ p.title }}</h2>
-  <p>{{ p.abstract }}</p>
-  <p><a href="{{ p.url }}">{{ p.title }}</a></p>
-{% endfor %}
+<div class="section">
+  <div class="section-top contain-970">
+  	<h3>{{ title }}</h3>
+  </div>
+  <div class="photo-feature-3-across">
+      {% for poster in site.posters %}
+  		<article class="photo-feature">
+  			<a href="poster.url">
+  				<div class="front">
+  			 <img alt="{{ poster.abstract | trucate: 10 }}" src="{{ poster.image_path }}" style="max-width:480px;max-height:350px;"/>
+  				<div class="text-over-image">
+  					<h4>{{ poster.title | trucate: 30 }}</h4>
+  			 	<p class="link">View</p>
+  				</div>
+  			</div>
+  			<div class="back">
+  				<div class="back-text">
+  					<h4>{{ poster.title | trucate: 30 }}</h4>
+  					<p>{{ poster.abstract | trucatewords: 10 }}</p>
+  					<p class="link">View</p>
+  	 		 </div>
+  			</div>
+  		</a>
+  	</article>
+    {% endfor %}
+  </div>
+</div>

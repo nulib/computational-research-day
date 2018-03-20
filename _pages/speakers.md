@@ -7,7 +7,7 @@ The Northwestern Computational Research Day provides opportunities for Universit
 
 ### Guest Keynote
 
-![Victoria Stodden](/assets/images/crd18_stodden.png){: .align-left}
+![Victoria Stodden](/assets/images/crd18_stodden.png)
 
 #### Reproducibility in Computational Research: Code, Data, Statistics, and Implementation
 _Victoria Stodden, Associate Professor of Information Sciences, University of Illinois at Urbana_
@@ -18,7 +18,7 @@ Reproducibility in the computational sciences can be interpreted in increasingly
 
 ### Keynote
 
-![Shane Larson](/assets/images/crd18_larson.png){: .align-left}
+![Shane Larson](/assets/images/crd18_larson.png)
 
 #### At Home in a Storm of Stars: Observing, Simulating, and Pondering the Milky Way Galaxy
 _Shane Larson, Associate Director of CIERA (Center for Interdisciplinary Exploration and Research in Astrophysics) and WCAS Research Associate Professor of Physics and Astronomy_
