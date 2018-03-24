@@ -1,5 +1,7 @@
-<div class="section hero">
+<div class="section hero no-bottom-margin">
   <div class="hero-image in-page" style="background:url('{{ page.header_image }}') no-repeat center / cover;">
+    {% if page.home == true %}
     <div class="contain-1120"><h2>{{ page.title }}</h2><p>{{ page.subtitle }}</p></div>
+    {% endif %}
   </div>
 </div>

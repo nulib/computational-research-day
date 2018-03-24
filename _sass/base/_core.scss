@@ -52,7 +52,7 @@ a.screen-reader-shortcut {
     line-height: 1.7em;
     outline: none !important; // removes outline from tabindex
 }
-    
+
 // centered containers
 .contain-780 {
     margin: 0 auto;
@@ -75,7 +75,7 @@ a.screen-reader-shortcut {
 .contain-1120 {
     margin: 0 auto;
     max-width: 1120px;
-    box-sizing: content-box;    
+    box-sizing: content-box;
 }
 
 .contain-1440 {
@@ -89,6 +89,12 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.align-image-left {
+	float: left;
+	margin: 0.5rem 1.5rem 0.5rem 0;
+}
+
 
 .hide-label {
     position: absolute;
@@ -107,7 +113,7 @@ img {
 
 // media queries
 @media screen and (max-width: 1140px) { // adds left/right margin for smaller screen widths
-    
+
     #main-content .contain-1120 {
         margin-left: 1rem;
         margin-right: 1rem;
@@ -115,7 +121,7 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-    
+
     .hide-mobile, a.screen-reader-shortcut {
         display: none;
     }

@@ -1,55 +1,283 @@
-<h2 id="background--objectives">Background &amp; Objectives</h2>
-<ul>
-  <li>Contagion processes arise broadly in the social and biological sciences; e.g. the spread of infectious and the diffusion of innovations.</li>
-  <li>Depending on the network structure, the transmission dynamics can have different. However, when the structure is too complex (e.g. multipartite networks), understanding the properties of the network might not be sufficient to predict and compare the transmission dynamics between similar networks, especially in stochastic processes.</li>
-  <li>Using computational simulations we develop algorithm that systematically compares the transmission dynamics on different networks.</li>
-</ul>
+<!-- nuwebcomm header-footer-template/index.com: https://github.com/nuwebcomm/templates/blob/master/header-footer-template/index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/styles.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/assets/css/print.css" type="text/css" media="print" />
+    <!--[if lt IE 9]><script src="//common.northwestern.edu/v8/js/html5shiv-printshiv.js"></script><![endif]-->
+    <title>Northwestern University | Computational Research Day</title>
+</head>
+  <body class="landing-page">
+    <a id="top"></a>
+    <a href="#main-content" class="screen-reader-shortcut">Skip to main content</a>
+    <!--[if lt IE 9]>
+    <div id="ie">
+        <p><img src="https://common.northwestern.edu/v8/css/images/icons/ie-warning.png" alt="Warning icon" /> Your browser is <strong>out-of-date</strong> and has known <strong>security flaws</strong>. We recommend you update your browser: <a href="http://www.google.com/chrome/" target="_blank">Chrome</a> - <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a> - <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">Internet Explorer</a> - <a href="https://www.apple.com/safari/" target="_blank">Safari</a>.</p>
+    </div>
+    <![endif]-->
+    <header>
+        <a href="#main-content" class="screen-reader-shortcut">Skip to main content</a>
+        <div id="top-bar">
+    <div class="contain-1120">
+        <div id="left">
+            <div id="northwestern">
+                <a href="http://www.northwestern.edu/" title="Northwestern University Home"><span class="hide-label">Northwestern University</span></a>
+            </div>
+            <div id="parent-unit">
+                <a href="#">Parent Unit Name</a>
+            </div>
+        </div>
+        <div id="global-links" aria-label="global links navigation">
 
-<h2 id="transmission-dynamics-in-complex-networks">Transmission dynamics in complex networks</h2>
-<ul>
-  <li>When there are similar networks, it is hard to measure if the dynamics in the network behave similarly to each other</li>
-</ul>
+          <ul>
+            
+              
+              <li>
+                <a href="http://www.it.northwestern.edu/research/" >Research Computing</a>
+              </li>
+            
+              
+              <li>
+                <a href="http://www.library.northwestern.edu/" >Libraries</a>
+              </li>
+            
+          </ul>
+        </div>
+    </div>
+</div>
 
-<p><img src="/assets/images/2018/comparison-of-transmission-dynamics-in-different-networks-1.png" alt="Figure 1" class="align-center" /></p>
+        <div id="quick-links" aria-label="quick links navigation">
+    <ul>
+        <li><a href="#">Quick Link 1</a></li>
+        <li><a href="#">Quick Link 2</a></li>
+        <li><a href="#">Quick Link 3</a></li>
+    </ul>
+</div>
 
-<ul>
-  <li>The three networks are complex networks and show similar network properties and transmission dynamics.</li>
-  <li>Using the blue network as reference network we would like to compare whether the red network or the green network has more similar network dynamics.</li>
-</ul>
+        <div id="bottom-bar" class="contain-1120">
+    <div id="site-name">
+        <h1><a href="http://localhost:4000/">COMPUTATIONAL RESEARCH DAY</a></h1>
+    </div>
+    <div id="search" class="hide-mobile">
+<div class="search-form searchblox">
+  <form action="https://searchsite.northwestern.edu/searchblox/default_frontend/index.html" method="get" role="search">
+                <label class="hide-label" for="q-desktop">Search this website</label>
+                <input id="q-desktop" name="query" placeholder="Search this site" type="text"/>
+                <input type="hidden" name="filter" value="http://www.northwestern.edu/YOUR_SITE"/>
+                <input type="hidden" name="advanced" value="false"/>
+                <button type="submit"><span class="hide-label">Search</span></button>
+  </form>
+</div>
+    </div>
+</div>
 
-<h2 id="calculating-the-area-between-curves-for-each-trajectories-of-n-simulations-on-each-network">Calculating the area between curves for each trajectories of N simulations on each network</h2>
-<p><img src="/assets/images/2018/comparison-of-transmission-dynamics-in-different-networks-2.png" alt="Figure 2" class="align-center" /></p>
+        <div id="mobile-links">
+    <a href="#mobile-nav" class="mobile-link mobile-nav-link"><span class="hide-label">Menu</span></a>
+    <nav id="mobile-nav" aria-label="mobile menu">
+        <ul>
+            <li tabindex="0"><a href="#">About</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+                <ul aria-expanded="false" aria-hidden="true">
+                    <li><a href="#">Level 2, Link 1 </a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span>Submenu</a></span>
+                        <ul aria-expanded="false" aria-hidden="true">
+                            <li><a href="#">Level 3, Link 2 the quick brown fox jumped over the lazy dog</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span>Submenu</a></span>
+                                <ul aria-expanded="false" aria-hidden="true">
+                                    <li><a href="#">Level 4, Link 1</a></li>
+                                    <li><a href="#">Level 4, Link 2</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span>Submenu</a></span>
+                                        <ul aria-expanded="false" aria-hidden="true">
+                                            <li><a href="#">Level 5, Link 1</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span>Submenu</a></span>
+                                                <ul aria-expanded="false" aria-hidden="true">
+                                                    <li><a href="#">Level 6, Link 1</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Level 5, Link 2</a></li>
+                                            <li><a href="#" class="active">Level 5, Link 3</a></li>
+                                            <li><a href="#">Level 5, Link 4</a></li>
+                                            <li><a href="#">Level 5, Link 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Level 4, Link 3</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Level 3, Link 2</a></li>
+                            <li><a href="#">Level 3, Link 3</a></li>
+                            <li><a href="#">Level 3, Link 4</a></li>
+                            <li><a href="#">Level 3, Link 5</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Academics</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+                <ul aria-expanded="false" aria-hidden="true">
+                    <li><a href="#">Level 2, Link 1</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Admissions</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+                <ul aria-expanded="false" aria-hidden="true">
+                    <li><a href="#">Level 2, Link 1</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Campus Life</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+                <ul aria-expanded="false" aria-hidden="true">
+                    <li><a href="#">Level 2, Link 1</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Research</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+                <ul aria-expanded="false" aria-hidden="true">
+                    <li><a href="#">Level 2, Link 1</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Giving</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+                <ul aria-expanded="false" aria-hidden="true">
+                    <li><a href="#">Level 2, Link 1</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div id="mobile-nav-bottom">
+            <!-- from #global-links -->
+            <ul id="mobile-nav-bottom-left">
+                <li><a href="#">Global Link 1</a></li>
+                <li><a href="#">Global Link 2</a>
+                    <ul>
+                        <li><a href="#">Global Drop Link 1</a></li>
+                        <li><a href="#">Global Drop Link 2</a></li>
+                        <li><a href="#">Global Drop Link 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- from #quick-links -->
+            <ul id="mobile-nav-bottom-right">
+                <li><a href="#">Quick Link 1</a></li>
+                <li><a href="#">Quick Link 2</a></li>
+                <li><a href="#">Quick Link 3</a></li>
+            </ul>
+        </div>
+    </nav>
+    <a href="#mobile-search" class="mobile-link mobile-search-link"><span class="hide-label">Search</span></a>
+    <div id="mobile-search">
+<div class="search-form searchblox">
+  <form action="https://searchsite.northwestern.edu/searchblox/default_frontend/index.html" method="get" role="search">
+                <label class="hide-label" for="q-mobile">Search this website</label>
+                <input id="q-mobile" name="query" placeholder="Search this site" type="text"/>
+                <input type="hidden" name="filter" value="http://www.northwestern.edu/YOUR_SITE"/>
+                <input type="hidden" name="advanced" value="false"/>
+                <button type="submit"><span class="hide-label">Search</span></button>
+  </form>
+</div>
+    </div>
+</div>
 
-<ul>
-  <li>For each network, we can simulate transmission dynamics using contagion models (e.g. SI, SIR, Dodds-Watts contagion model).</li>
-  <li>The mean of transmission dynamic curve reference network is used as the reference curve.</li>
-  <li>The area between the reference curve and each realizations of the transmission dynamics on the reference network is calculated.</li>
-  <li>N number of areas can be shown as a distribution.</li>
-</ul>
+    </header>
 
-<p><img src="/assets/images/2018/comparison-of-transmission-dynamics-in-different-networks-3.png" alt="Figure 3" class="align-center" /></p>
+            <nav id="top-nav" aria-label="main navigation menu">
+    <div class="contain-1120">
+        <ul>
+          
+            
+            <li><a href="/speakers/" >Speakers</a></li>
+            
+            
+            <li><a href="/posters/" >Posters</a></li>
+            
+            
+            <li><a href="/visualizations/" >Visualizations</a></li>
+            
+        </ul>
+      </div>
+  </nav>
 
-<ul>
-  <li>N number of realizations of transmission dynamics on the red network and green network is also simulated.</li>
-  <li>Using the reference curve, the area between curves for each realization of transmission dynamics on each network is calculated. The area between the curves determines not only the distribution of final number of infected agents, but the trend of trajectories over the entire time period.</li>
-  <li>There are N trajectories, therefore N areas for each network. The overlap between area distributions of the red/green network and the area distribution of reference network (95% confidence interval) is measured.</li>
-</ul>
 
-<h2 id="comparing-similarity-of-transmission-dynamic">Comparing similarity of transmission dynamic</h2>
-<ul>
-  <li>If there are multiple networks of similar properties, we can determine the distribution of overlaps of each network compared to the reference network.</li>
-  <li>The overlap can be calculated for each different parameter values, and the similarities of transmission dynamics across the parameter space between two different types of networks can be determined.</li>
-</ul>
+        <div id="page">
 
-<p><img src="/assets/images/2018/comparison-of-transmission-dynamics-in-different-networks-4.png" alt="Figure 4" class="align-center" /></p>
+          <div class="section hero no-bottom-margin">
+  <div class="hero-image in-page" style="background:url('') no-repeat center / cover;">
+    
+  </div>
+</div>
 
-<h2 id="conclusions--limitations">Conclusions &amp; Limitations</h2>
 
-<ul>
-  <li>We developed an algorithm that systematically compares the transmission dynamic trajectories of different networks.</li>
-  <li>Our method not only compare the final results of the transmission, but the transmission trend over time by using entire temporal simulation results.</li>
-  <li>High overlap values indicate that the transmission dynamics of a network is similar to the reference network.</li>
-  <li>It addresses the problem of only comparing the end results; when the behavior of transmission might be completely different between networks, but final number of infection is the same.</li>
-  <li>For highly stochastic processes, the overlap value might be small due to the variable possibilities in dynamics. This can be overcome by determining overlap values of the reference network to itself.</li>
-  <li>The method needs sufficient amount of reproduced data (in our experiment N = 1000). Comparing empirical transmission dynamics between two networks would be a challenge because empirical data are not as readily reproducible as computational simulations.</li>
-</ul>
+          <main id="main-content" class="content">
+
+            <div class="section background-select">
+            	<!-- note: no section top -->
+            	<div class="background-select-image">
+            		<div class="contain-970">
+            			<h3>Chemical and Biological Engineering</h3>
+            			<p class="subhead">Comparison of transmission dynamics in different networks</p>
+                  <h6>Hyojun Lee (Northwestern University), Luis A. N. Amaral (Northwestern University)</h6>
+                  <h6>DOI: <a href="https://doi.org/10.1000.xyz123"> 10.1000.xyz123</a></h6>
+            			<a class="button" target="_blank" href="/assets/pdfs/2018/comparison-of-transmission-dynamics-in-different-networks.pdf">Download PDF</a>
+                  <h3>Abstract</h3>
+                  <p>Contagion processes arise broadly in the social and biological sciences, manifested as, for example the spread of infectious and the diffusion of innovations. Depending on the network structure, the transmission dynamics can have different. However, when the structure is too complex (e.g. multipartite networks), understanding the properties of the network might not be sufficient to predict and compare the transmission dynamics between similar networks. We developed an algorithm that systematically compares the transmission dynamic trajectories of different networks. Our method not only compare the final results of the transmission, but the transmission trend over time by using entire temporal simulation results. Our method can indicate that the transmission dynamics of a network is similar or dissimilar to the reference network. The algorithm addresses the problem of only comparing the end results; when the behavior of transmission might be completely different between networks, but final number of infection is the same. For highly stochastic processes, the algorithm may deduce higher dissimilarities due to the variable possibilities in dynamics. This can be overcome by determining whether the reference network show high dissimilarity to itself. By investigating the entire parameter space of transmission model that is being used, the similarity trend can be determined for both the reference network and comparing network. The method needs sufficient amount of reproduced data (in our experiment N = 1000). Comparing empirical transmission dynamics between two networks would be a challenge because empirical data are not as readily reproducible as computational simulations.</p>
+            		</div>
+            	</div>
+            </div>
+
+          </main>
+        </div>
+    <footer>
+        <div class="contain-970">
+            <div class="footer-content">
+    <a href="http://www.northwestern.edu"><img src="https://common.northwestern.edu/v8/css/images/northwestern-university.svg" alt="Northwestern University" /></a>
+    <ul>
+        <li>&copy; <script>document.write(new Date().getFullYear())</script> Northwestern University</li>
+        <li><a href="http://www.northwestern.edu/contact.html">Contact Northwestern University</a></li>
+        <li><a href="http://www.northwestern.edu/hr/careers/">Careers</a></li>
+        <li><a href="http://www.northwestern.edu/disclaimer.html">Disclaimer</a></li>
+        <li><a href="http://www.northwestern.edu/emergency/index.html">Campus Emergency Information</a></li>
+        <li><a href="http://policies.northwestern.edu/">University Policies</a></li>
+    </ul>
+</div>
+
+            <div class="footer-content contact">
+    <ul>
+        <li class="footer-pin-icon"><span class="hide-label">Address</span></li>
+        <li><strong>NUIT Research Computing</strong></li>
+        <li>1970 Campus Drive</li>
+        <li>Evanston, IL 60640</li>
+    </ul>
+    <ul>
+        <li class="footer-phone-icon"><span class="hide-label">Phone number</span></li>
+        <li>847-367-5555</li>
+    </ul>
+    <ul>
+        <li class="footer-email-icon"><span class="hide-label">Email address</span></li>
+        <li><a href="mailto:melanie.wilson@northwestern.edu">melanie.wilson@northwestern.edu</a></li>
+    </ul>
+</div>
+
+            <div class="footer-content">
+    <p><strong>Social Media</strong></p>
+    
+    
+    <a href="https://twitter.com/NUITResearch" class="social twitter">Twitter</a>
+    
+    
+    
+    
+    <a href="https://www.youtube.com/user/nuitcommunications" class="social youtube">YouTube</a>
+    
+    
+    
+</div>
+
+            <div class="footer-content">
+    <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a></li>
+        <li><a href="#">Link 5</a></li>
+        <li><a href="#">Link 6</a></li>
+    </ul>
+</div>
+
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/assets/js/scripts.js"></script>
+</body>
+
+</html>

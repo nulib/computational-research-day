@@ -1,4 +1,5 @@
 ---
+layout: article
 # Poster Metadata
 title: "SH-ToF: Micro Resolution Time-of-flight Imaging with Super-heterodyne Interferometry"
 date: 2018-01-23
@@ -12,7 +13,7 @@ authors:
   - "Oliver Cossairt (Northwestern University)"
 doi: "10.1000.xyz123"
 poster_pdf: /assets/pdfs/2018/SH-ToF_Poster_v2.pdf
-abstract: "Three-dimensional imaging techniques have been widely used in both industry and academia. Time-of-flight (ToF) sensors offer a promising method of 3D imaging due to compact size and low complexity. However, state-of-the-art ToF sensors only have depth resolutions of centimeters due to limitations in the modulation frequencies that can be used. In this paper, we propose a technique to generate modulation frequencies as high as 1 THz using optical superheterodyne interferometry. Our proposed system provides great flexibility in imaging range and resolution. We experimentally demonstrate an increase in depth resolution by an order of magnitude relative to currently available commercial ToF cameras."
+abstract: "Three-dimensional imaging techniques have been widely used in both industry and academia. Time-of-flight (ToF) sensors offer a promising method of 3D imaging due to compact size and slow complexity. However, state-of-the-art ToF sensors only have depth resolutions of centimeters due to limitations in the modulation frequencies that can be used. In this paper, we propose a technique to generate modulation frequencies as high as 1 THz using optical superheterodyne interferometry. Our proposed system provides great flexibility in imaging range and resolution. We experimentally demonstrate an increase in depth resolution by an order of magnitude relative to currently available commercial ToF cameras."
 # Home page: Recently Published articles
 image_path: /assets/images/2018/sh-tof-8.png
 alt: "Figure 1"
@@ -20,8 +21,9 @@ excerpt: "In this paper, we propose a technique to generate modulation frequenci
 url: "#"
 btn_label: "Read More"
 btn_class: "btn--inverse"
+header_image: /assets/images/2018/sh-tof-8.png
 ---
-## Motivation
+### Motivation
 
 **Why ToF cameras for 3D imaging?**
 - Large baseline for comparable depth resolution (Triangulation based 3D imaging e.g. structure light camera)
@@ -35,7 +37,7 @@ btn_class: "btn--inverse"
 
 ![Figure 2](/assets/images/2018/sh-tof-2.png){: .align-center}
 
-## Background & Proposed
+### Background & Proposed
 
 **ToF camera**
 
@@ -57,7 +59,7 @@ btn_class: "btn--inverse"
 - Micro depth resolution but tunable image range (micro to meters)
 - **Able** to image optical rough surface (laser speckle)
 
-## Comparison & Contributions
+### Comparison & Contributions
 ![Figure 6](/assets/images/2018/sh-tof-6.png){: .align-center}
 
 ![Figure 7](/assets/images/2018/sh-tof-7.png){: .align-center}
@@ -67,11 +69,11 @@ btn_class: "btn--inverse"
 - Tunability between depth resolution and depth range
 - 3D scanning on rough surface
 
-## Prototype
+### Prototype
 
 ![Figure 8](/assets/images/2018/sh-tof-8.png){: .align-center}
 
-## Quantitative Evaluation
+### Quantitative Evaluation
 
 **Pixel-point measurement**
 - Prototype measure
@@ -92,7 +94,7 @@ btn_class: "btn--inverse"
 
 ![Figure 10](/assets/images/2018/sh-tof-10.png){: .align-center}
 
-## 3D Scanning
+### 3D Scanning
 
 **Folded cardboard**
 
@@ -104,5 +106,5 @@ btn_class: "btn--inverse"
 
 ![Figure 16](/assets/images/2018/sh-tof-16.png){: .align-center}
 
-## Acknowledgement
+### Acknowledgement
 ![Acknowledgement](/assets/images/2018/sh-tof-ack.png){: .align-center}
