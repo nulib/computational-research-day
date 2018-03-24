@@ -23,18 +23,8 @@ layout: default
 
         <h2>{{ page.title }}</h2>
 
-        <h3>2018</h3>
-        <hr>
-        {% for poster in site.posters %}
-        <article class="news">
-        	<!-- <a href="{{ poster.url }}"><img alt="{{ poster.abstract | trucatewords: 10 }}" src="{{ poster.image_path }}" style="max-width:265px;max-height:265px;"/></a>-->
-        	<h4 class="news-title"><a href="{{ poster.url }}">{{ poster.title }}</a></h4>
-          <!--<h6>{{ poster.college }}</h6>-->
-          <div class="news-date" style="color: grey">{{ poster.authors | join: ', ' }}</div>
-        	<div class="news-date">{{ poster.date | date: "%B %d, %Y" }}</div>
-        	<div class="news-description">{{ poster.abstract | truncatewords: 50 }} <a href="{{ poster.url }}">Read more.</a></div>
-        </article>
-        {% endfor %}
+        {{ content }}
+
       </main>
     </div>
 

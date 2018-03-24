@@ -2,7 +2,8 @@
 # Poster Metadata
 title: "Multi-Index Attribution of Beijing's 2013 Airpocalypse"
 date: 2018-01-23
-college: "McCormick School of Engineering and Applied Science"
+subject: "Environmental Sciences"
+college: "Weinberg College of Arts and Sciences"
 authors:
   - "Christopher W. Callahan (Northwestern University)"
   - "Noah S. Diffenbaugh (Stanford University)"

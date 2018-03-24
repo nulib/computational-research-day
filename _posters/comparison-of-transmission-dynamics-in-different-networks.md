@@ -2,7 +2,8 @@
 # Poster Metadata
 title: "Comparison of transmission dynamics in different networks"
 date: 2018-01-23
-college: "McCormick School of Engineering and Applied Science"
+subject: "Chemical and Biological Engineering"
+college: "The Graduate School"
 authors:
   - "Hyojun Lee (Northwestern University)"
   - "Luis A. N. Amaral (Northwestern University)"
