@@ -1,7 +1,8 @@
 // left navigation
 
 #left-nav {
-	width: 265px / 1120px * 100%;
+	position: fixed;
+	width: 18%; // 265px / 1120px * 100%;
 	float: left;
 	font-family: $AkkuratProBold;
     margin-bottom: 3rem;
@@ -12,10 +13,9 @@
     }
 
     h2 {
-        border-bottom: 4px solid $light-grey;
         min-height: 30px;
         padding-bottom: .5rem;
-        margin-bottom: 2rem;
+        // margin-bottom: 2rem;
         font: 18px/1.5rem $AkkuratProBold;
         text-transform: none;
 

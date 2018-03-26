@@ -2,7 +2,7 @@
 layout: page
 permalink: /posters/
 title: "Posters"
-toc_title: "Browse Subjects"
+nav_title: "Subjects"
 ---
 
 {% include group-by-array collection=site.posters field='subject' %}
@@ -10,7 +10,7 @@ toc_title: "Browse Subjects"
   {% for subject in group_names %}
     {% assign posts = group_items[forloop.index0] %}
 
-      <h3>{{ subject }}</h3>
+      <h3><a id="{{ subject }}">{{ subject }}</a></h3>
       <hr>
         {% for post in posts %}
         <article class="news">
