@@ -12,7 +12,6 @@ layout: default
     <header>
         <a href="#main-content" class="screen-reader-shortcut">Skip to main content</a>
         {% include header/top-bar.html %}
-        {% include header/quick-links.html %}
         {% include header/bottom-bar.html %}
         {% include header/mobile-links.html %}
     </header>
@@ -21,7 +20,7 @@ layout: default
 
         <div id="page">
 
-          {% include hero-image.html %}
+        {% include scribd.html %}
 
           <main id="main-content" class="content">
 
@@ -39,7 +38,12 @@ layout: default
             		</div>
             	</div>
             </div>
+<!--
+            <h3>Abstract</h3>
+            <p>{{ page.abstract }}</p>
 
+            {{ content }}
+-->
           </main>
         </div>
     <footer>
