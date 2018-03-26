@@ -1,4 +1,5 @@
 ---
+layout: visualization
 # Visualization Metadata
 title: "Time-of-flight Imaging with Superheterodyne Interferometry"
 authors:
@@ -12,7 +13,5 @@ header:
   image: /assets/images/2018/davidhead_animation.gif
   image_description: "This is a 3D visualization and scanning of a plaster bust of David using laser interferometry. We achieve micrometer resolution of David with macro stand-off distance."
 ---
-![Figure 1](/assets/images/2018/davidhead_animation.gif){: .align-center}
-
-## Description
+### Description
 This is a 3D visualization and scanning of a plaster bust of David using laser interferometry. We achieve micrometer resolution of David with macro stand-off distance.

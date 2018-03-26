@@ -1,4 +1,5 @@
 ---
+layout: visualization
 # Visualization Metadata
 title: "Depression Survey Item Underestimates Symptoms in Low Health-Literacy Participants"
 authors:
@@ -12,7 +13,5 @@ header:
   image: /assets/images/2018/depression-survey-item.jpg
   image_description: "Individuals with limited health literacy responded differently to this question about depression, showing that their level of depression may be underestimated."
 ---
-![Figure 1](/assets/images/2018/depression-survey-item.jpg)
-
-## Description
+### Description
 Item characteristic curves (ICCs) show differential item functioning (DIF) for the depression item “I felt worthless.” Individuals with limited health literacy responded differently to this question about depression, showing that their level of depression may be underestimated.

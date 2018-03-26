@@ -1,0 +1,13 @@
+{% if page.header.image %}
+<div class="hero no-bottom-margin">
+  <img id="visualization-header" src="{{page.header.image}}">
+</div>
+{% endif %}
+
+{% if page.plotly %}
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="{{page.plotly}}" style="display:block;margin:auto;"></iframe>
+{% endif %}
+
+{% if page.prezi %}
+<iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="940" height="480" src="{{ page.prezi }}" style="display:block;margin:auto;"></iframe>
+{% endif %}
