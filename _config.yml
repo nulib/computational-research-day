@@ -3,7 +3,7 @@ title              : "Computational Research Day"
 description        : ""
 publisher          : "Northwestern University Libraries"
 url                : "https://nulib.github.io"
-baseurl            : "/computational-research-day"
+baseurl            : "/computational-research-day/"
 
 # Editorial
 editors:
