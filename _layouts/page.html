@@ -21,10 +21,8 @@ layout: default
     <div id="page">
 
       <nav aria-label="section navigation menu" id="left-nav" tabindex="-1">
-        <div class="sticky">
-          <h2><a href="#top">{{ page.nav_title }}</a></h2>
-          {% include toc.html sanitize=true html=content h_min=2 h_max=3 %}
-        </div>
+        <h2><a href="#top">{{ page.nav_title }}</a></h2>
+        {% include toc.html sanitize=true html=content h_min=2 h_max=3 %}
       </nav>
 
       <main id="main-content" class="content">
