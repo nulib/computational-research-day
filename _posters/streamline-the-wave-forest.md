@@ -5,7 +5,7 @@ title: "Streamline the Wave Forecast: Computing Tsunamis for Fictitious Earthqua
 date: 2018-01-23
 college: "Weinberg College of Arts and Sciences"
 departent: "Earth & Planetary Sciences"
-subject: "Physical Sciences"
+tag: [Physical Sciences]
 authors:
   - "Amir Salaree"
   - "Emile A. Okal"

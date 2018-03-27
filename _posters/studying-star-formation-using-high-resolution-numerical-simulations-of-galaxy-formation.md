@@ -5,7 +5,7 @@ title: "Studying Star Formation Using High-Resolution Numerical Simulations of G
 date: 2018-01-23
 college: "Weinberg College of Arts and Sciences"
 departent: "Physics and Astronomy"
-subject: "Physical Sciences"
+tag: [Physical Sciences]
 authors:
   - "Alex Gurvich"
 doi: "10.1000.xyz123"

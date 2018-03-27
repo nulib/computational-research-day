@@ -14,3 +14,6 @@ iframe: "https://agurvich.github.io/firefly/"
 ---
 ### Description
 Firefly is an interactive tool that allows users to fly through 3 dimensional datasets by rendering it "on-the-fly." Here every dot is a "particle" in our spiral galaxy simulation-- the different colors represent each of gas, stars, and dark matter.
+
+### Abstract
+{{ page.abstract }}

@@ -5,3 +5,5 @@ main:
     url: /posters/
   - title: "Visualizations"
     url: /visualizations/
+  - title: "Subjects"
+    url: /subjects/

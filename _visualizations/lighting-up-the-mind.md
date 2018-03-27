@@ -15,3 +15,6 @@ header:
 ---
 ### Description
 This is a mouse brain thinking. Your brain is made up of neurons that send messages to each other. These ones glow when messages are fired off. Using a trick of quantum physics, researchers can see the cells glow through layers of brain. You’re watching a mouse’s hippocampus as it runs in virtual-reality, helping us understand how we navigate and form memories.
+
+### Abstract
+{{ page.abstract }}

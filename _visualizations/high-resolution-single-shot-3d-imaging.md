@@ -23,4 +23,7 @@ Like a hologram, each movie frame encompasses the full 3D information about the 
 
 The requisite low-cost technology is simple. The single-shot ability, paired with a static pattern projection, allows for the shape acquisition of extremely fast live scenes. Moreover, the sensor works very ‘efficient’ from an information theoretical point of view. Only two properly positioned synchronized cameras are sufficient to solve the profound ambiguity problem, which is omnipresent in 3D metrology. To demonstrate the high quality of the captured 3D point clouds, the visualizations display solely unprocessed raw-data. No post-processing like interpolation or smoothing is applied. Each 3D point displays a precision better than 200µm and is measured independently from its neighbors. The absence of spatial encoding strategies allows for edge preservation. More visualizations can be found [here](https://www.youtube.com/user/Osmin3D/)
 
- NOTE: The concept and implementation of the sensor was invented and developed at the University Erlangen-Nuremberg, Germany during my PhD thesis. The development will be continued at Northwestern University in the future.
+NOTE: The concept and implementation of the sensor was invented and developed at the University Erlangen-Nuremberg, Germany during my PhD thesis. The development will be continued at Northwestern University in the future.
+
+### Abstract
+{{ page.abstract }}

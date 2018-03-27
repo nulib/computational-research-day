@@ -1,0 +1,59 @@
+---
+layout: page
+permalink: /subjects/
+title: Subjects
+---
+
+{% comment %}
+=======================
+The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
+=======================
+{% endcomment %}
+{% assign rawtags = "" %}
+{% for post in site.posters %}
+	{% assign ttags = post.tags | join:'|' | append:'|' %}
+	{% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% comment %}
+=======================
+The following part removes dulpicated tags and invalid tags like blank tag.
+=======================
+{% endcomment %}
+{% assign tags = "" %}
+{% for tag in rawtags %}
+	{% if tag != "" %}
+		{% if tags == "" %}
+			{% assign tags = tag | split:'|' %}
+		{% endif %}
+		{% unless tags contains tag %}
+			{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+		{% endunless %}
+	{% endif %}
+{% endfor %}
+
+{% comment %}
+=======================
+The purpose of this snippet is to list all your posts posted with a certain tag.
+=======================
+{% endcomment %}
+
+{% for tag in tags %}
+
+	<h3 id="{{ tag | slugify }}">{{ tag }}</h3>
+  <hr>
+
+    {% for post in site.posters %}
+    {% if post.tags contains tag %}
+
+    <article class="news">
+      <h4 class="news-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      <div class="news-date" style="color: grey">{{ post.authors | join: ', ' }}</div>
+      <div class="news-date">{{ post.date | date_to_string }}</div>
+      <div class="news-description">{{ post.abstract | truncatewords: 50 }} <a href="{{ poster.url }}">Read more.</a></div>
+    </article>
+
+	 {% endif %}
+	 {% endfor %}
+{% endfor %}

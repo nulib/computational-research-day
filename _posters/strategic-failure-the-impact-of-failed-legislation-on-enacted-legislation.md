@@ -5,7 +5,7 @@ title: "Strategic failure? The impact of failed legislation on enacted legislati
 date: 2018-01-23
 college: "Weinberg College of Arts and Sciences"
 departent: "Political Science"
-subject: "Social Sciences"
+tag: [Social Sciences]
 authors:
   - "Amanda Jadidi d'Urso"
 doi: "10.1000.xyz123"

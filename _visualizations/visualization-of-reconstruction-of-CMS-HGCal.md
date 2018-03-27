@@ -18,6 +18,9 @@ Large Hadron Collider (LHC) at CERN will start a new era of high luminosity of 1
 
 The plot above is an event display of 10 pions with the transverse momentum of 35 GeV. The reconstruction algorithm needs to group all valid energy deposits, so-called hits, into clusters, each incoming particle having one or a few corresponding clusters so that the energy of incoming particles can be calculated. Three critical steps are involved in this project:
 
+### Abstract
+{{ page.abstract }}
+
 #### 1) Detector simulation
 Monte-Carlo simulation of HGCal is carried out on the batch system at CERN. The details of geometry and material of HGCal detector are modeled carefully in GEANT4 by the CMS collaboration. Here we generate high energy particles of our interest (e.g., photons, pions) and shoot them into HGCal. In Monte-Carlo simulation, these high energy particles produce the thousands of digitized energy deposits (hits), which are then inputted into offline energy reconstruction.
 

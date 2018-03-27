@@ -35,8 +35,8 @@ layout: default
                   {% if page.poster.pdf %}
             			<a class="button" target="_blank" href="{{ page.poster_pdf }}">Download</a>
                   {% endif %}
-                  {% if page.iframe %}
-                  <a class="button" target="_blank" href="{{ page.iframe }}">Visit Project Website</a>
+                  {% if page.project_url %}
+                  <a class="button" target="_blank" href="{{ page.project_url }}">Visit Project Website</a>
                   {% endif %}
             		</div>
             	</div>
@@ -44,8 +44,6 @@ layout: default
 
             <body class="standard-content narrow-content">
               <div class="contain-1120">
-                <h3>Abstract</h3>
-                <p>{{ page.abstract }}</p>
                 {{ content }}
               </div>
             </body>

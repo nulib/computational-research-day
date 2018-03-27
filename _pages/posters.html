@@ -4,7 +4,7 @@ permalink: /posters/
 title: "Posters"
 nav_title: "Subjects"
 ---
-{% include group-by-array collection=site.posters field='subject' %}
+{% include group-by-array collection=site.posters field='tag' %}
 
   {% for subject in group_names %}
     {% assign posts = group_items[forloop.index0] %}
@@ -13,9 +13,7 @@ nav_title: "Subjects"
       <hr>
         {% for post in posts %}
         <article class="news">
-          <!-- <a href="{{ poster.url }}"><img alt="{{ poster.abstract | trucatewords: 10 }}" src="{{ poster.image_path }}" style="max-width:265px;max-height:265px;"/></a>-->
           <h4 class="news-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
-          <!--<h6>{{ poster.college }}</h6>-->
           <div class="news-date" style="color: grey">{{ post.authors | join: ', ' }}</div>
           <div class="news-date">{{ post.date | date: "%B %d, %Y" }}</div>
           <div class="news-description">{{ post.abstract | truncatewords: 50 }} <a href="{{ poster.url }}">Read more.</a></div>
