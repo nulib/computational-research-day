@@ -20,7 +20,7 @@ body {
     background: $white;
     min-width: 98%;
     height: 100%;
-    overflow-x: hidden;
+    // overflow-x: hidden; disabled for sticky sidebar
 }
 
 a:focus {  // for accessible links
@@ -102,7 +102,7 @@ img {
     top: auto;
     width: 1px;
     height: 1px;
-    overflow: hidden;
+    // overflow: hidden;
 }
 
 .group:after { // the clearfix

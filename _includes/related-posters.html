@@ -1,0 +1,41 @@
+<h3>You May Also Enjoy</h3>
+{% if page.url contains 'posters' %}
+<div class="relatedPosts">
+
+    {% assign maxRelated = 4 %}
+    {% assign minCommonTags =  1 %}
+    {% assign maxRelatedCounter = 0 %}
+
+    {% for posters in site.posters %}
+
+    {% assign sameTagCount = 0 %}
+    {% assign commonTags = '' %}
+
+    {% for college in posters.college %}
+      {% if poster.url != page.url %}
+        {% if page.college contains college %}
+          {% assign sameTagCount = sameTagCount | plus: 1 %}
+          {% capture tagmarkup %} <span class="label label-default">{{ college }}</span> {% endcapture %}
+          {% assign commonTags = commonTags | append: tagmarkup %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% if sameTagCount >= minCommonTags %}
+      <div>
+      <h5><a href="{{ site.baseurl }}{{ posters.url }}">{{ posters.title }}{{ commonTags }}</a></h5>
+      </div>
+      {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+      {% if maxRelatedCounter >= maxRelated %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+
+ {% endfor %}
+
+</div>
+
+{% else %}
+
+//Related posts code for usual posts
+{% endif %}

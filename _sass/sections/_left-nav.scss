@@ -1,7 +1,9 @@
 // left navigation
 
 #left-nav {
-	position: fixed;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 1em;
 	width: 15%; // 265px / 1120px * 100%;
 	float: left;
 	font-family: $AkkuratProBold;

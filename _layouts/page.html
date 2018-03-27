@@ -21,11 +21,11 @@ layout: default
     <div id="page">
 
       <nav aria-label="section navigation menu" id="left-nav" tabindex="-1">
-        <h2><a href="#top">{{ page.nav_title }}</a></h2>
-        {% include toc.html sanitize=true html=content h_min=2 h_max=3 %}
+        <div class="sticky">
+          <h2><a href="#top">{{ page.nav_title }}</a></h2>
+          {% include toc.html sanitize=true html=content h_min=2 h_max=3 %}
+        </div>
       </nav>
-
-      <!-- <nav aria-label="section navigation menu" id="left-nav" tabindex="-1"><h2><a href="index.html">Common Elements</a></h2><ul><li><a href="header-lockups.html">Header Lockups</a></li><li><a href="top-navigation.html">Top Navigation</a></li><li><a class="active" href="wysiwyg.html">WYSIWYG Features</a></li></ul> </nav> -->
 
       <main id="main-content" class="content">
 

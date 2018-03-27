@@ -1,4 +1,4 @@
-<nav aria-label="section navigation menu" id="left-nav" tabindex="-1">
+<nav aria-label="section navigation menu" tabindex="-1">
 *  Auto generated table of contents
 {:toc .toc__menu}
 </nav>
