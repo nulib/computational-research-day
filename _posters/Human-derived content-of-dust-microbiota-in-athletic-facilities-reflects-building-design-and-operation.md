@@ -4,7 +4,7 @@ layout: poster
 title: "Human-derived content of dust microbiota in athletic facilities reflects building design and operation"
 date: 2018-01-23
 college: "McCormick School of Engineering and Applied Science"
-subject: "Civil and Environmental Engineering"
+subject: "Engineering"
 authors:
   - "Ryan Blaustein (Northwestern University)"
   - "Sarah Ben Maamar (Northwestern University)"
