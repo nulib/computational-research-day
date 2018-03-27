@@ -9,7 +9,7 @@
         -moz-background-size: 35px 35px;
         -webkit-background-size: 35px 35px;
         background-size: 35px 35px;
-    }  
+    }
 
     .swiper-button-prev {
         background: url("#{$path-images}/icons/arrow-right-purple-white.svg") no-repeat;
@@ -17,7 +17,7 @@
         -moz-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
         -o-transform: rotate(180deg);
-        transform: rotate(180deg);   
+        transform: rotate(180deg);
         left: 10px;
         right: auto;
     }
@@ -26,14 +26,14 @@
         background: url("#{$path-images}/icons/arrow-right-purple-white.svg") no-repeat;
         right: 10px;
         left: auto;
-    }   
+    }
 
-    .caption { 
-        font: 20px/1.3em $AkkuratProRegular;  
+    .caption {
+        font: 0.75em $AkkuratProRegular;
         position: absolute;
         bottom: .4rem;
         padding: 1rem;
-        background: rgba(0, 0, 0, .3);
+        // background: rgba(0, 0, 0, .3);
         color: $white;
         width: 100%;
         margin: 0;
@@ -41,7 +41,7 @@
         strong {
             font-family: $AkkuratProBold;
         }
-        
+
         a {
             font-family: $AkkuratProBold;
             text-transform: uppercase;
@@ -53,20 +53,20 @@
                 padding-right: 1.5rem;
                 content: " ";
             }
-            
+
             &:hover {
                 text-decoration: none;
             }
         }
-    }    
+    }
 
     @media screen and (max-width: 768px) {
 
         .caption {
             font-size: 16px;
-        }        
+        }
     }
-    
+
     @media screen and (max-width: 600px) {
 
         .caption {
@@ -83,7 +83,7 @@
             -webkit-background-size: 25px 25px;
             background-size: 25px 25px;
             margin-top: -3rem;
-        }            
-    }  
-    
+        }
+    }
+
 } // end
