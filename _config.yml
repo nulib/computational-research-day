@@ -4,6 +4,7 @@ description        : ""
 publisher          : "Northwestern University Libraries"
 url                : "https://nulib.github.io"
 baseurl            : "/computational-research-day"
+destination        : "docs"
 
 # Editorial
 editors:
