@@ -13,9 +13,13 @@
 {% endif %}
 
 {% if page.google_drive %}
-<iframe src="https://drive.google.com/file/d/1lBszIjeaSQ7hEJGwvTkwEPZXilHVnLhZ/preview" width="800" height="600" style="display:block;margin:auto;"></iframe>
+<iframe src="{{ page.google_drive }}" width="800" height="600" style="display:block;margin:auto;"></iframe>
 {% endif %}
 
 {% if page.iframe %}
-<iframe src="{{ page.iframe }}"></iframe>
+<iframe src="{{ page.iframe }}" width="1440" height="600" style="display:block;margin:auto;"></iframe>
+{% endif %}
+
+{% if page.youtube %}
+<iframe width="800" height="600" src="{{ page.youtube }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="display:block;margin:auto;"></iframe>
 {% endif %}
