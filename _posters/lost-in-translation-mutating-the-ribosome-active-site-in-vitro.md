@@ -1,5 +1,4 @@
 ---
-layout: poster
 # Poster Metadata
 title: "Lost in translation: Mutating the ribosome active site in vitro"
 date: 2018-01-23

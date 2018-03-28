@@ -1,5 +1,4 @@
 ---
-layout: poster
 # Poster Metadata
 title: "Studying Star Formation Using High-Resolution Numerical Simulations of Galaxy Formation"
 date: 2018-01-23

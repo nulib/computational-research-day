@@ -1,5 +1,4 @@
 ---
-layout: visualization
 # Visualization Metadata
 title: "Visualization of Reconstruction of CMS HGCal"
 authors:

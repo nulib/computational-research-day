@@ -1,5 +1,4 @@
 ---
-layout: visualization
 # Visualization Metadata
 title: "Time-of-flight Imaging with Superheterodyne Interferometry"
 authors:

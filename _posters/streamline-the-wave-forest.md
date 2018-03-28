@@ -1,5 +1,4 @@
 ---
-layout: poster
 # Poster Metadata
 title: "Streamline the Wave Forecast: Computing Tsunamis for Fictitious Earthquakes in Fake Oceans"
 date: 2018-01-23

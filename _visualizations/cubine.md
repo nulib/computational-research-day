@@ -1,5 +1,4 @@
 ---
-layout: visualization
 # Visualization Metadata
 title: "Cubine, a Two-Dimensional Copper–Bismuth Nanosheet"
 authors:

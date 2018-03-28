@@ -1,5 +1,4 @@
 ---
-layout: visualization
 # Visualization Metadata
 title: "Depression Survey Item Underestimates Symptoms in Low Health-Literacy Participants"
 authors:

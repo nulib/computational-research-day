@@ -1,5 +1,4 @@
 ---
-layout: visualization
 # Visualization Metadata
 title: "High Resolution Single-shot 3D Imaging with the Single-shot 3D Movie Camera"
 authors:

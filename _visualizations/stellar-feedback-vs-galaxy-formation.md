@@ -1,5 +1,4 @@
 ---
-layout: visualization
 # Visualization Metadata
 title: "Fluid dynamical levitation of heavy particles"
 authors:

@@ -1,5 +1,4 @@
 ---
-layout: visualization
 # Visualization Metadata
 title: "Portrait of the Galaxy as a Young Galaxy"
 authors:

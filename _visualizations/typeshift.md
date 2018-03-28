@@ -1,5 +1,4 @@
 ---
-layout: visualization
 # Visualization Metadata
 title: "TypeShift: A User Interface for Visualizing the Typing Process"
 authors:

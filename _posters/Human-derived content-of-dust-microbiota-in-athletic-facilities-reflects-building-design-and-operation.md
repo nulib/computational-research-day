@@ -1,5 +1,4 @@
 ---
-layout: poster
 # Poster Metadata
 title: "Human-derived content of dust microbiota in athletic facilities reflects building design and operation"
 date: 2018-01-23

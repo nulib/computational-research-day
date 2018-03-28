@@ -4,6 +4,7 @@ description        : ""
 publisher          : "Northwestern University Libraries"
 url                :
 baseurl            :
+encoding           : utf-8
 
 
 # Editorial
@@ -54,3 +55,20 @@ collections:
   visualizations:
     output: true
     permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posters"
+    values:
+      layout: "poster"
+      format: "Poster"
+  -
+    scope:
+      path: ""
+      type: "visualizations"
+    values:
+      layout: "visualization"
+      format: "Visualization"

@@ -1,5 +1,4 @@
 ---
-layout: poster
 # Poster Metadata
 title: "SH-ToF: Micro Resolution Time-of-flight Imaging with Super-heterodyne Interferometry"
 date: 2018-01-23

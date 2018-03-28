@@ -1,5 +1,4 @@
 ---
-layout: visualization
 # Visualization Metadata
 title: "Mixing by cutting-and-shuffling a hemispherical shell"
 authors:

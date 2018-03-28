@@ -1,5 +1,4 @@
 ---
-layout: poster
 # Poster Metadata
 title: "Strategic failure? The impact of failed legislation on enacted legislation"
 date: 2018-01-23

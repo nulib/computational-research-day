@@ -1,5 +1,4 @@
 ---
-layout: poster
 # Poster Metadata
 title: "Comparison of transmission dynamics in different networks"
 date: 2018-01-23

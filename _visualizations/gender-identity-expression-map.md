@@ -1,5 +1,4 @@
 ---
-layout: visualization
 # Visualization Metadata
 title: "The Interactive Universe of Gender: Using Prezis for Health Education and Engagement"
 date: 2018-02-11

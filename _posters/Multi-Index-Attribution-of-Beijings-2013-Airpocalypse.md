@@ -1,5 +1,4 @@
 ---
-layout: poster
 # Poster Metadata
 title: "Multi-Index Attribution of Beijing's 2013 Airpocalypse"
 date: 2018-01-23

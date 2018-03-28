@@ -1,5 +1,4 @@
 ---
-layout: visualization
 # Visualization Metadata
 title: "Gravitational Waves from Illustris1 Massive Black Hole Mergers"
 authors:
