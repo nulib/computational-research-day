@@ -6,7 +6,7 @@ authors:
 date: 2018-03-11
 college: "Weinberg College of Arts and Sciences"
 department: "Physics & Astronomy"
-subject: "Physical Sciences"
+tag: [Physical Sciences]
 abstract: "This is a movie of three galaxy formation simulations I ran as part of my research.
 The color of each pixel represents the temperature of the gas (blue for cold and green for hot) and the brightness of each pixel represents the density (dim for low density bright for high density). Thus diffuse and hot gas looks like a hazy green mist while cold and dense gas looks like a bright clump. In this movie 3 different prescriptions for stellar feedback, the process by which newly formed stars give momentum and energy back to their environments, are employed on identical galaxy models. The center panel is our fiducial model. The rightmost is when feedback is enhanced and the leftmost is when feedback is reduced."
 # Embed
