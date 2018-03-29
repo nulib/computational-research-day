@@ -30,7 +30,8 @@ layout: default
             		<div class="contain-970">
             			<h3>{{ page.tag }}</h3>
             			<p class="subhead">{{ page.title }}</p>
-                  <h6>{{ page.authors | join: ', ' }}</h6>
+                  <h6>{{ page.department }}</h6>
+                  <h4>{{ page.authors | join: ', ' }}</h4>
                   <h6>DOI: <a href="https://doi.org/{{page.doi}}"> {{ page.doi }}</a></h6>
             			<a class="button" target="_blank" href="{{ page.poster_pdf }}">Download</a>
                   <h3>Abstract</h3>
@@ -41,28 +42,35 @@ layout: default
 
             <div class="section contain-1120">
               <div class="section-top contain-970">
-                <h3>Related Posters</h3>
+                <h3>More</h3>
               </div>
 
                <div class="feature-two-col">
+                 {% if page.previous.url %}
                  <article class="feature-box">
-                   {% if page.previous.url %}
                      <div class="feature-copy">
                        <h4><a href="{{page.previous.url}}">{{ page.previous.title }}</a></h4>
                        <h6>{{ page.previous.authors }}, {{ page.next.tags }}</h6>
                        <p>{{ page.previous.abstract | truncatewords: 75 }} <a href="{{page.previous.url}}">View the poster.</a></p>
                      </div>
-                    {% endif %}
                  </article>
                  <article class="feature-box">
-                   {% if page.next.url %}
                      <div class="feature-copy">
                        <h4><a href="{{page.previous.url}}">{{ page.next.title }}</a></h4>
                        <h6>{{ page.next.authors }}, {{ page.next.tags }}</h6>
                        <p>{{ page.next.abstract | truncatewords: 75 }} <a href="{{page.next.url}}">View the poster.</a></p>
                      </div>
-                    {% endif %}
                  </article>
+                 {% else %}
+                 <article class="feature-box" style="margin: auto;display:block;">
+                     <div class="feature-copy">
+                       <h4><a href="{{page.previous.url}}">{{ page.next.title }}</a></h4>
+                       <h6>{{ page.next.authors }}, {{ page.next.tags }}</h6>
+                       <p>{{ page.next.abstract | truncatewords: 75 }} <a href="{{page.next.url}}">View the poster.</a></p>
+                     </div>
+                 </article>
+                 {% endif %}
+
                </div>
              </div>
           </main>
