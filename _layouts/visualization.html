@@ -48,6 +48,35 @@ layout: default
               </div>
             </body>
 
+            <body class="landing-page">
+
+            <div class="section contain-1120">
+              <div class="section-top contain-970">
+                <h3>Related Visualizations</h3>
+              </div>
+
+	             <div class="feature-two-col">
+                 <article class="feature-box">
+                   {% if page.previous.url %}
+                     <div class="feature-copy">
+                       <h4><a href="{{page.previous.url}}">{{ page.previous.title }}</a></h4>
+                       <h6>{{ page.previous.authors }}, {{ page.next.tags }}</h6>
+                       <p>{{ page.previous.abstract | truncatewords: 75 }} <a href="{{page.previous.url}}">View the visualization.</a></p>
+                     </div>
+                    {% endif %}
+                 </article>
+                 <article class="feature-box">
+                   {% if page.next.url %}
+                     <div class="feature-copy">
+                       <h4><a href="{{page.previous.url}}">{{ page.next.title }}</a></h4>
+                       <h6>{{ page.next.authors }}, {{ page.next.tags }}</h6>
+                       <p>{{ page.next.abstract | truncatewords: 75 }} <a href="{{page.next.url}}">View the visualization.</a></p>
+                     </div>
+                    {% endif %}
+                 </article>
+               </div>
+             </div>
+            </body
           </main>
         </div>
     <footer>
