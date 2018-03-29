@@ -3,15 +3,9 @@
 title: "Lost in translation: Mutating the ribosome active site in vitro"
 date: 2018-01-23
 college: "Weinberg College of Arts and Sciences"
-departent: "Interdisciplinary Program in Biological Sciences"
+department: "Interdisciplinary Program in Biological Sciences"
 tag: [Life Sciences]
-authors:
-  - "Anne d'Aquino"
-  - "Tasfia Azim"
-  - "Nikolay Aleksashin"
-  - "Adam Hockenberry"
-  - "Shura Mankin"
-  - "Michael Jewett"
+authors: "Anne d'Aquino, et al."
 doi: "10.1000.xyz123"
 poster_pdf: /assets/pdfs/2018/daquino_CRD18.pdf
 abstract: "The ribosome, a 2.5-MDa molecular machine that polymerizes α-amino acids into proteins, is the catalytic workhorse of the translation apparatus. The catalytic capacity of the translation machinery has attracted extensive efforts to repurpose it for novel functions. One key idea is that the natural translation machinery can be harnessed to synthesize polymers containing non-natural building blocks. Expanding the repertoire of ribosomal substrates and functions is a difficult task, however, because the requirement of cell viability severely constrains the alterations that can be made to the ribosome, a catalyst that sustains the life of a cell. These constraints have made the natural ribosome nearly unevolvable and, so far, no generalizable approach for modifying the catalytic peptidyl transferase center (PTC) of the ribosome has been advanced.

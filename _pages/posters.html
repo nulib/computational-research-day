@@ -14,8 +14,8 @@ nav_title: "Subjects"
         {% for post in posts %}
         <article class="news">
           <h4 class="news-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
-          <div class="news-date" style="color: grey">{{ post.authors | join: ', ' }}</div>
-          <div class="news-date">{{ post.date | date: "%B %d, %Y" }}</div>
+          <div class="news-date" style="color: grey">{{ post.department }}</div>
+          <h6>{{ post.authors }}</h6>
           <div class="news-description">{{ post.abstract | truncatewords: 50 }} <a href="{{ poster.url }}">Read more.</a></div>
         </article>
         {% endfor %}

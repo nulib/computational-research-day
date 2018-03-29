@@ -3,11 +3,9 @@
 title: "Streamline the Wave Forecast: Computing Tsunamis for Fictitious Earthquakes in Fake Oceans"
 date: 2018-01-23
 college: "Weinberg College of Arts and Sciences"
-departent: "Earth & Planetary Sciences"
+department: "Earth & Planetary Sciences"
 tag: [Physical Sciences]
-authors:
-  - "Amir Salaree"
-  - "Emile A. Okal"
+authors: "Amir Salaree, et al."
 doi: "10.1000.xyz123"
 poster_pdf: /assets/pdfs/2018/Salaree_CRD18.pdf
 abstract: "The distribution of tsunami amplitudes in the open ocean is controlled by fault geometry and ocean depth -- or, bathymetry.
