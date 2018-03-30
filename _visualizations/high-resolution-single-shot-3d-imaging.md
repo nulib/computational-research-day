@@ -1,8 +1,7 @@
 ---
 # Visualization Metadata
 title: "High Resolution Single-shot 3D Imaging with the Single-shot 3D Movie Camera"
-authors:
-  - "Florian Willomitzer"
+authors: "Florian Willomitzer"
 date: 2018-03-11
 college: "McCormick School of Engineering and Applied Sciences"
 department: "Electrical Engineering and Computer Science"

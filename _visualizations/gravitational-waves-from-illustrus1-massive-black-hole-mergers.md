@@ -1,8 +1,7 @@
 ---
 # Visualization Metadata
 title: "Gravitational Waves from Illustris1 Massive Black Hole Mergers"
-authors:
-  - "Michael Katz"
+authors: "Michael Katz"
 date: 2018-03-11
 college: "Weinberg College of Arts and Sciences"
 department: "Physics & Astronomy"

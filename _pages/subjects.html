@@ -57,7 +57,7 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 
     <article class="news">
       <h4 class="news-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
-      <div class="news-date" style="color: grey">{{ post.authors | join: ', ' }}, {{ post.department }}</div>
+      <div class="news-date" style="color: grey">{{ post.authors}}, {{ post.department }}</div>
       <div class="news-date">{{ post.format }}</div>
       <div class="news-description">{{ post.abstract | truncatewords: 50 }} <a href="{{ poster.url }}">Read more.</a></div>
     </article>
@@ -70,7 +70,7 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 
 	 <article class="news">
 		 <h4 class="news-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
-		 <div class="news-date" style="color: grey">{{ post.authors | join: ', ' }}</div>
+		 <div class="news-date" style="color: grey">{{ post.authors}}, {{ post.department }}</div>
 		 <div class="news-date">{{ post.format }}</div>
 		 <div class="news-description">{{ post.abstract | truncatewords: 50 }} <a href="{{ poster.url }}">Read more.</a></div>
 	 </article>

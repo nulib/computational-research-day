@@ -1,8 +1,7 @@
 ---
 # Visualization Metadata
 title: "Fluid dynamical levitation of heavy particles"
-authors:
-  - "Alex Gurvich"
+authors: "Alex Gurvich"
 date: 2018-03-11
 college: "Weinberg College of Arts and Sciences"
 department: "Physics & Astronomy"

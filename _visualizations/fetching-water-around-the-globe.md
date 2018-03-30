@@ -1,8 +1,7 @@
 ---
 # Visualization Metadata
 title: "Fetching Water Around the Global"
-authors:
-  - "Adam Goodkind"
+authors: "Adam Goodkind"
 date: 2018-03-11
 college: "Weinberg College of Arts and Sciences"
 department: "Anthropology"

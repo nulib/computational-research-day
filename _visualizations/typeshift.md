@@ -1,8 +1,7 @@
 ---
 # Visualization Metadata
 title: "TypeShift: A User Interface for Visualizing the Typing Process"
-authors:
-  - "Adam Goodkind"
+authors: "Adam Goodkind"
 date: 2018-03-11
 college: "Weinberg College of Arts and Sciences"
 department: "Linguistics"

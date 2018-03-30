@@ -1,8 +1,7 @@
 ---
 # Visualization Metadata
 title: "Portrait of the Galaxy as a Young Galaxy"
-authors:
-  - "Alex Gurvich"
+authors: "Alex Gurvich"
 date: 2018-03-11
 college: "Weinberg College of Arts and Sciences"
 department: "Materials Science and Engineering"
