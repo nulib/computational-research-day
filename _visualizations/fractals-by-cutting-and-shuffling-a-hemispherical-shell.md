@@ -1,9 +1,9 @@
 ---
 # Visualization Metadata
 title: "Fractals by cutting-and-shuffling a hemispherical shell"
-authors:
-  - "Thomas F. Lynn"
+authors: "Thomas F. Lynn"
 date: 2018-03-11
+department: "Engineering Sciences and Applied Mathematics"
 college: "McCormick School of Engineering and Applied Science"
 tag: [Engineering]
 abstract: "A fractal is created by a Piecewise Isometry (PWI) which cuts a 2D object into pieces and rearranges those pieces to recreate the original object in a scrambled form. The PWI studied here splits a hemispherical shell into four pieces along cutting lines and rearranges them into a shuffled hemisphere. The cuts of the PWI create an intricate fractal. Videos require highly parallel computation using a GPU to repeat the PWI an adequate number of times to resolve the fractal. The persistence of cut-less regions at all scales confirms the fractal structure and offers insight into the mixing behavior of the PWI, which can be used to help design efficient mixing systems. Funded by NSF CMMI 1435065."
