@@ -1,0 +1,34 @@
+
+<!-- Google Scholar Metadata https://scholar.google.com/intl/en/scholar/inclusion.html -->
+
+<meta name="citation_title" content="{{ page.title }}">
+<meta name="citation_author" content="{{ page.authors }}">
+<meta name="citation_publication_date" content="{{ page.date }}">
+<meta name="citation_journal_title" content="{{ site.title }}">
+<meta name="citation_doi" content="{{ page.doi }}">
+<meta name="citation_publisher" content="{{ site.publisher }}">
+<meta name="citation_pdf_url" content="{{ site.url }}/{{ page.poster_pdf }}">
+<meta name="citation_abstract" content="{{ page.abstract }}">
+
+<!-- Basic Dublin Core Metadata http://dublincore.org/ -->
+
+<meta name="DC.Format" content="text/html" />
+<meta name="DC.Language" content="en" />
+<meta name="DC.Title" content="{{ page.title }}" />
+<meta name="DC.Identifier" content="{{ page.doi }}" />
+<meta name="DC.Date" content="{{ page.date }}" />
+<meta name="DC.Publisher" content="{{ site.publisher }}" />
+<meta name="DC.Rights" content="{{ site.rights }}" />
+<meta name="DC.License" content="{{ site.license }}" />
+<meta name="DC.Description" content="{{ page.abstract }}" />
+<meta name="DC.Contributor" content="{{ page.author }}" />
+<meta name="DC.citation(scheme=DCMICite)" content="
+  journalTitle={{ site.title }};" />
+
+<!-- Open Graph Metadata http://ogp.me/ -->
+
+<meta name="og:title" property="og:title" content="{{ page.title }}" />
+<meta name="og:url" property="og:url" content="{{ page.url }}" />
+<meta name="og:site_name" property="og:site_name" content="{{ site.title }}" />
+<meta name="og:description" property="og:description" content="{{ page.abstract }}" />
+<meta name="og:type" property="og:type" content="article" />
