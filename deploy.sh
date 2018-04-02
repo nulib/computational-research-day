@@ -1,4 +1,4 @@
 echo "Building website"
-JEKYLL_ENV=production jekyll build
+jekyll build
 echo "Deploying blog to s3"
 s3_website push
