@@ -1,6 +1,6 @@
 ---
 # Visualization Metadata
-title: "Fluid dynamical levitation of heavy particles"
+title: "Stellar Feedback vs. Galaxy Formation"
 authors: "Alex Gurvich"
 date: 2018-03-11
 college: "Weinberg College of Arts and Sciences"
