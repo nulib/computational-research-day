@@ -1,31 +1,37 @@
 {% if page.image %}
-<div class="section-hero">
-  <img class="hero-image" src="{{ page.image }}">
+<div class="image-container">
+  <img class="viz-image" src="{{ page.image }}">
 </div>
 {% endif %}
 
 {% if page.plotly %}
-<div class="header-container">
+<div class="embed-container">
   <iframe class="embed" frameborder="0" scrolling="no" src="{{page.plotly}}"></iframe>
 </div>
 {% endif %}
 
 {% if page.prezi %}
-<iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="940" height="480" src="{{ page.prezi }}" style="display:block;margin:auto;"></iframe>
+<div class="embed-container">
+  <iframe class="embed" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" src="{{ page.prezi }}"></iframe>
+</div>
 {% endif %}
 
 {% if page.google_drive %}
-<div class="header-container">
+<div class="embed-container">
     <iframe class="embed" src="{{ page.google_drive }}"></iframe>
 </div>
 {% endif %}
 
 {% if page.iframe %}
-<iframe src="{{ page.iframe }}" width="1440" height="600" style="display:block;margin:auto;"></iframe>
+<div class="embed-container">
+  <iframe class="embed" src="{{ page.iframe }}"></iframe>
+</div>
 {% endif %}
 
 {% if page.youtube %}
-<iframe width="800" height="600" src="{{ page.youtube }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="display:block;margin:auto;"></iframe>
+<div class="embed-container">
+  <iframe class="embed" src="{{ page.youtube }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 {% endif %}
 
 {% if page.d3 == true %}
@@ -41,7 +47,7 @@
 
       <div style="width:50%;margin:auto;">
 
-        <p id="chart_area"></p>
+        <p class="d3-chart" id="chart_area"></p>
 
     		<p style="font-weight: bold; font-size: 1rem; color: #401f68;" id="currentCongress"> congress # 113 </p>
         <p style="font-weight: bold; font-size: 1rem; color: #401f68;" id= "congressYear"> year 2013 - 2015</p>
@@ -49,9 +55,6 @@
         <input type = "range" id = "congressSlider" min = "1" max = "113" value= "113" style="margin-bottom:1em;">
 
       </div>
-
-
-
 
       <!-- add legend as an image -->
       <img src="/assets/files/viz_congress/legend2.jpg" style="margin:auto;display:block;width:556px;height:52px;">

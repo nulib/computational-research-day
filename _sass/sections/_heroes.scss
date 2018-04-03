@@ -19,16 +19,29 @@
 
 // responsive headers and embeds
 
-.header-container {
+.embed-container {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 35px;
   height: 0;
-  max-width: 1440px;
+  width: auto;
   max-height: 600px;
   overflow: hidden;
 }
 
+.image-container {
+  height: auto;
+  width: auto;
+  margin: auto;
+  overflow: hidden;
+  display: block;
+}
+
+.viz-image {
+  max-height: 600px;
+  margin: auto;
+  display: block;
+}
 
 // hero images
 
