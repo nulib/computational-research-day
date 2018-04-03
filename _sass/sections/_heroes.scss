@@ -29,6 +29,7 @@
   overflow: hidden;
 }
 
+
 // hero images
 
 .hero {
@@ -105,10 +106,10 @@
     .hero {
 
         .hero-image { // for top of page
-            max-height: 600px;
+            height: 600px;
 
             &.in-page { // slighter shorter for within the page
-                max-height: 540px;
+                height: 540px;
 
                 h3 {
                     font: 24px $CamptonExtraBold;
@@ -261,7 +262,7 @@
         .hero {
 
             .hero-image {
-                max-height: 400px;
+                height: 400px;
 
                 &.big-hero-image { // removes people hero from content page
                     display: none;
