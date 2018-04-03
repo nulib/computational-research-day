@@ -5,7 +5,9 @@
 {% endif %}
 
 {% if page.plotly %}
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="{{page.plotly}}" style="display:block;margin:auto;"></iframe>
+<div class="header-container">
+  <iframe class="embed" frameborder="0" scrolling="no" src="{{page.plotly}}"></iframe>
+</div>
 {% endif %}
 
 {% if page.prezi %}
@@ -13,7 +15,9 @@
 {% endif %}
 
 {% if page.google_drive %}
-<iframe src="{{ page.google_drive }}" width="800" height="600" style="display:block;margin:auto;"></iframe>
+<div class="header-container">
+    <iframe class="embed" src="{{ page.google_drive }}"></iframe>
+</div>
 {% endif %}
 
 {% if page.iframe %}
