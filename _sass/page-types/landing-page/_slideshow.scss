@@ -70,9 +70,7 @@
     @media screen and (max-width: 600px) {
 
         .caption {
-            position: relative;
-            background: $nu-purple-60;
-            font-size: 14px;
+            visibility: hidden;
         }
 
         .swiper-button-next,
