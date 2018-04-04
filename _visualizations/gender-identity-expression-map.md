@@ -10,8 +10,8 @@ abstract: "Over half of millennials believe gender is a spectrum, yet our models
 # Embed
 prezi: "https://prezi.com/embed/yvqu4hrcexig/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0U2xVVnpqUDBCUm5YbEowaUhFZ1NpOVVBPT0&amp;landing_sign=_tESFTun8wzu8efYLdLDkoe1eKfmY8px-k4KlXonHOU"
 ---
-### Description
+#### Description
 Gender is complicated. But that’s okay! This interactive graphic goes “beyond the binary,” with a constellation of over 40 gender identities, definitions, & images. Instead of Man vs. Woman, we use Masculine, Feminine, Both, and Neither to describe the gender spectrum.
 
-### Abstract
+#### Abstract
 {{ page.abstract }}

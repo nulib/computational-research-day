@@ -10,8 +10,8 @@ abstract: "A fractal is created by a Piecewise Isometry (PWI) which cuts a 2D ob
 # embed
 google_drive: "https://drive.google.com/file/d/1lBszIjeaSQ7hEJGwvTkwEPZXilHVnLhZ/preview"
 ---
-### Description
+#### Description
 A fractal has an intricate structure no matter how closely one looks at it. This video zooms in on fractal details formed by repeatedly cutting a hemispherical shell into moon-shaped wedges and rearranging them into a scrambled hemisphere. Funded by [NSF CMMI 1435065](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1435065).
 
-### Abstract
+#### Abstract
 {{ page.abstract }}

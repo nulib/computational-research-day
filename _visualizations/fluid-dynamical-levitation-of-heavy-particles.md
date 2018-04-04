@@ -10,8 +10,8 @@ abstract: "Levitation—the rising or hovering of an object in apparent defiance
 # Embed
 youtube: https://www.youtube.com/embed/QkIhM3fq5rk?rel=0&amp;showinfo=0
 ---
-### Description
+#### Description
 This video first shows the upward motion of a system of four vortices against a downward flow stream. Light blue particles are then placed within the flow with the force of gravity acting on the particles in the downward direction. While some of the particles are swept downstream, a subset of them become trapped in the motion of the vortices and are carried upstream, or levitated. These trapped particles cluster together at the labeled attracting points. To visualize the initial positions of the subset of particles that become trapped and levitated, the particles are colored according to which attracting point they migrate to. The orange and green colors illustrate the fractal pattern of the initial positions of the trapped particles. Finally, the visualization shows the migration of those particles to their respective attracting points.
 
-### Abstract
+#### Abstract
 {{ page.abstract }}

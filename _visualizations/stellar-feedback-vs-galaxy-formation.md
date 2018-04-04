@@ -11,8 +11,8 @@ The color of each pixel represents the temperature of the gas (blue for cold and
 # Embed
 youtube: https://www.youtube.com/embed/noFAbbAF-xc?rel=0&amp;showinfo=0
 ---
-### Description
+#### Description
 Three simulations of identical galaxies with varying levels of energy returned to stars’ surroundings after they form. When stars return lots of energy (right) it blows up the galaxy. When they don’t (left) it is able to form a very stable disk.
 
-### Abstract
+#### Abstract
 {{ page.abstract }}

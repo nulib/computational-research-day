@@ -10,7 +10,7 @@ abstract: "Real-time free-viewpoint 3D movie of a human face raw data, measured 
 # Embed
 youtube: https://www.youtube.com/embed/Y_d0GWk8Zqo?rel=0&amp;showinfo=0
 ---
-### Description
+#### Description
 This work introduces a novel optical 3D sensor principle and its implementation: the ‘single-shot 3D movie camera’. The camera is designed for the 3D measurement of macroscopic objects with scattering surfaces, e.g. human faces. It combines the acquisition of a dense point cloud displaying physically limited lateral resolution and depth precision together with a single-shot ability. ‘Single-shot’ means that no temporal sequence of exposures is exploited to generate the 3D point cloud. The approach is based on multi-line triangulation. Since, in contrast to other single-shot approaches, no space-bandwidth is wasted by pattern codification, the 3D point cloud can be acquired with its maximal possible density: A 1-Megapixel camera (1000 × 1000 pix) delivers nearly 300,000 independent (uncorrelated) 3D points in each camera frame. A 3D sensor with these features allows for a continuous 3D measurement of moving or deforming objects, resulting in a ‘3D movie’.
 
 <div class="embed-container">
@@ -27,5 +27,5 @@ The requisite low-cost technology is simple. The single-shot ability, paired wit
 
 NOTE: The concept and implementation of the sensor was invented and developed at the University Erlangen-Nuremberg, Germany during my PhD thesis. The development will be continued at Northwestern University in the future.
 
-### Abstract
+#### Abstract
 {{ page.abstract }}
