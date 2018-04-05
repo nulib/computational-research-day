@@ -84,7 +84,7 @@ layout: default
 
                   {% if sameTagCount >= minCommonTags %}
                     <div style="margin-top:2em;">
-                    <h4><a href="{{ post.url }}">{{ post.title }}{{ commonTags }}</a></h4>
+                    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
                     <h6>{{ post.authors }}, {{ post.department }}</h6>
                     <p>{{ post.abstract | truncatewords: 75 }}<a href="{{ post.url }}">Read on</a></p>
                     </div>
