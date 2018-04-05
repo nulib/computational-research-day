@@ -1,6 +1,6 @@
 ---
 # Poster Metadata
-title: "Simulating 3-D Biosignature Gases on Earths around other Stas"
+title: "Simulating 3-D Biosignature Gases on Earths around other Stars"
 date: 2018-01-23
 college: "Weinberg College of Arts and Sciences"
 department: "Earth and Planetary Sciences"
