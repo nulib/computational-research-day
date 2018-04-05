@@ -6,7 +6,7 @@ college: "Weinberg College of Arts and Sciences"
 department: "Earth & Planetary Sciences"
 tag: [Physical Sciences]
 authors: "Amir Salaree, et al."
-doi: "10.1000.xyz123"
+doi: "10.21985/N2WX18"
 poster_pdf: /assets/pdfs/2018/Salaree_CRD18.pdf
 abstract: "The distribution of tsunami amplitudes in the open ocean is controlled by fault geometry and ocean depth -- or, bathymetry.
 Forecasting tsunami amplitudes at the coastlines by means of simulation of propagation -- especially in large grids -- is time-consuming. Therefore, on one hand, it is of interest to eliminate unnecessary calculations in the simulations through removing redundant features in the bathymetry data. On the other hand, designing alternative methods to estimate the tsunami behavior, especially in the far field, in order to avoid the time-consuming finite-difference algorithms is desirable. To achieve this, we use a spherical harmonics approach to simplify the bathymetry and also approximate the earthquake source by several ray-generating points.
