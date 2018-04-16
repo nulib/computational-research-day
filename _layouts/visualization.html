@@ -29,9 +29,12 @@ layout: default
             	<div class="background-select-image">
             		<div class="contain-970">
             			<h3>{{ page.tag }}</h3>
+                  {% if page.award %}
+                  <h4>{{ page.award }}</h4>
+                  {% endif %}
             			<p class="subhead">{{ page.title }}</p>
+                  <h4>{{ page.authors }}</h4>
                   <h6 style="color:#4e2a84">{{ page.department }}</h6>
-                  <h6>{{ page.authors }}</h6>
                   {% if page.poster.pdf %}
             			<a class="button" target="_blank" href="{{ page.poster_pdf }}">Download</a>
                   {% endif %}
