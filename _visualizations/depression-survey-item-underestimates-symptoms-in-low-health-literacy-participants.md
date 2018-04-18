@@ -2,7 +2,7 @@
 # Visualization Metadata
 title: "Depression Survey Item Underestimates Symptoms in Low Health-Literacy Participants"
 authors: "Bayley Taple"
-date: 2018-03-11
+date: 2018-04-10
 college: "Feinberg School of Medicine"
 department: "Medical Social Sciences"
 tag: [Social Sciences]

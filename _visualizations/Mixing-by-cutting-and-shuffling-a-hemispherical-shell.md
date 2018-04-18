@@ -2,7 +2,7 @@
 # Visualization Metadata
 title: "Mixing by cutting-and-shuffling a hemispherical shell"
 authors: "Thomas F. Lynn"
-date: 2018-03-11
+date: 2018-04-10
 department: "Engineering Sciences and Applied Mathematics"
 college: "McCormick School of Engineering and Applied Science"
 tag: [Engineering]

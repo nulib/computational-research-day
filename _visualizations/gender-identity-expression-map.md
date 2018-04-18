@@ -1,7 +1,7 @@
 ---
 # Visualization Metadata
 title: "The Interactive Universe of Gender: Using Prezis for Health Education and Engagement"
-date: 2018-02-11
+date: 2018-04-10
 college: "School of Professional Studies"
 department: "Pre-medicine"
 tag: [Life Sciences]

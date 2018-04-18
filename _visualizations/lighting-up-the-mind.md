@@ -2,7 +2,7 @@
 # Visualization Metadata
 title: "Lighting Up the Mind"
 authors: "Jason Climer"
-date: 2018-03-11
+date: 2018-04-10
 college: "Weinberg College of Arts and Sciences"
 department: "Neurobiology"
 tag: [Life Sciences]

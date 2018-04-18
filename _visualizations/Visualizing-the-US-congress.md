@@ -2,7 +2,7 @@
 # Visualization Metadata
 title: "Visualizing the US congress"
 authors: "Vicky Chuqiao Yang"
-date: 2018-03-11
+date: 2018-04-10
 college: "McCormick School of Engineering and Applied Science"
 department: "Engineering Sciences and Applied Mathematics"
 tag: [Engineering]

@@ -2,7 +2,7 @@
 # Visualization Metadata
 title: "Portrait of the Galaxy as a Young Galaxy"
 authors: "Alex Gurvich"
-date: 2018-03-11
+date: 2018-04-10
 college: "Weinberg College of Arts and Sciences"
 department: "Physics and Astronomy"
 tag: [Physical Sciences]

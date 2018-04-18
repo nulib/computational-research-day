@@ -2,7 +2,7 @@
 # Visualization Metadata
 title: "Stellar Feedback vs. Galaxy Formation"
 authors: "Alex Gurvich"
-date: 2018-03-11
+date: 2018-04-10
 college: "Weinberg College of Arts and Sciences"
 department: "Physics & Astronomy"
 tag: [Physical Sciences]

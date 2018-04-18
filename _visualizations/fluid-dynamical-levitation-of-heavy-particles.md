@@ -2,7 +2,7 @@
 # Visualization Metadata
 title: "Fluid dynamical levitation of heavy particles"
 authors: "Daniel Case"
-date: 2018-03-11
+date: 2018-04-10
 college: "Weinberg College of Arts and Sciences"
 department: "Physics & Astronomy"
 tag: [Physical Sciences]

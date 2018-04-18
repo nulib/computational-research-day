@@ -3,7 +3,7 @@
 title: "Cubine, a Two-Dimensional Copper–Bismuth Nanosheet"
 authors:
   - "Maximilian Amsler"
-date: 2018-03-11
+date: 2018-04-10
 college: "McCormick School of Engineering and Applied Sciences"
 department: "Materials Science and Engineering"
 tag: [Engineering]
