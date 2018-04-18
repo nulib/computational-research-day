@@ -1,7 +1,7 @@
 ---
 # Poster Metadata
 title: "Lost in translation: Mutating the ribosome active site in vitro"
-date: 2018-01-23
+date: 2018-04-10
 college: "Weinberg College of Arts and Sciences"
 department: "Interdisciplinary Program in Biological Sciences"
 tag: [Life Sciences]

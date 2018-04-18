@@ -1,7 +1,7 @@
 ---
 # Poster Metadata
 title: "Prediction of Black Hole Populations in Globular Clusters"
-date: 2018-01-23
+date: 2018-04-10
 college: "Weinberg College of Arts and Sciences"
 department: "Physics & Astronomy"
 tag: [Physical Sciences]

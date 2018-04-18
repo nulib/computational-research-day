@@ -1,7 +1,7 @@
 ---
 # Poster Metadata
 title: "Computational tool for multimodal brain imaging"
-date: 2018-01-23
+date: 2018-04-10
 tag: [Life Sciences]
 department: "Physical Therapy and Human Movement Sciences"
 college: "Feinberg School of Medicine"

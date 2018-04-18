@@ -1,7 +1,7 @@
 ---
 # Poster Metadata
 title: "Comparison of transmission dynamics in different networks"
-date: 2018-01-23
+date: 2018-04-10
 tag: [Engineering]
 department: "Chemical and Biological Engineering"
 college: "McCormick School of Engineering and Applied Sciences"

@@ -1,7 +1,7 @@
 ---
 # Poster Metadata
 title: "Reliability of the Mismatch Negativity in a Kindergarten Population Oversampled for Dyslexia"
-date: 2018-01-23
+date: 2018-04-10
 college: "School of Communication"
 department: "Communication Science and Disorders"
 tag: [Social Sciences]

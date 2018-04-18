@@ -1,7 +1,7 @@
 ---
 # Poster Metadata
 title: "Network Acuity: Social Perceptions in a Small-World Experiment"
-date: 2018-01-23
+date: 2018-04-10
 college: "McCormick School of Engineering and Applied Science"
 department: "Industrial Engineering and Management Sciences"
 tag: [Engineering]

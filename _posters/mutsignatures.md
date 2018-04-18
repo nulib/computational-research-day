@@ -1,7 +1,7 @@
 ---
 # Poster Metadata
 title: "mutSignatures: An R Package For Extraction And Analysis Of Cancer Mutational Signatures"
-date: 2018-01-23
+date: 2018-04-10
 college: "Feinberg School of Medicine"
 department: "Urology"
 tag: [Life Sciences]

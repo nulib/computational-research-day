@@ -1,7 +1,7 @@
 ---
 # Poster Metadata
 title: "Streamline the Wave Forecast: Computing Tsunamis for Fictitious Earthquakes in Fake Oceans"
-date: 2018-01-23
+date: 2018-04-10
 college: "Weinberg College of Arts and Sciences"
 department: "Earth & Planetary Sciences"
 tag: [Physical Sciences]

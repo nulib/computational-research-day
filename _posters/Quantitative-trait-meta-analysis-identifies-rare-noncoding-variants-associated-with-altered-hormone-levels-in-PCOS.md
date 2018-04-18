@@ -1,7 +1,7 @@
 ---
 # Poster Metadata
 title: "Quantitative trait meta-analysis identifies rare noncoding variants associated with altered hormone levels in PCOS"
-date: 2018-01-23
+date: 2018-04-10
 college: "Feinberg School of Medicine"
 department: "Medicine"
 tag: [Life Sciences]

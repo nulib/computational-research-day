@@ -1,7 +1,7 @@
 ---
 # Poster Metadata
 title: "Identification of Sources of Platform Specific Bias in Single Cell RNA Sequencing"
-date: 2018-01-23
+date: 2018-04-10
 college: "Feinberg School of Medicine"
 department: "Pulmonary & Critical Care"
 tag: [Life Sciences]

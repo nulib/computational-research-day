@@ -1,7 +1,7 @@
 ---
 # Poster Metadata
 title: "Creating a Framework for Evaluating the Effectiveness of Various Search Strategies in the Small-World Phenomenon"
-date: 2018-01-23
+date: 2018-04-10
 college: "McCormick School of Engineering and Applied Science"
 department: "Electrical Engineering & Computer Science"
 tag: [Engineering]

@@ -1,7 +1,7 @@
 ---
 # Poster Metadata
 title: "Comprehensive analysis of transcriptional response upon multiple drug treatments"
-date: 2018-01-23
+date: 2018-04-10
 college: "Feinberg School of Medicine"
 department: "Pharmacology"
 tag: [Life Sciences]

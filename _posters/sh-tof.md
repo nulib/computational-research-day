@@ -1,7 +1,7 @@
 ---
 # Poster Metadata
 title: "SH-ToF: Micro Resolution Time-of-flight Imaging with Super-heterodyne Interferometry"
-date: 2018-01-23
+date: 2018-04-10
 college: "McCormick School of Engineering and Applied Science"
 department: "Electrical Engineering and Computer Science"
 tag: [Engineering]

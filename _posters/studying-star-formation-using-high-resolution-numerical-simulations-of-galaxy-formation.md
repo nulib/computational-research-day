@@ -1,7 +1,7 @@
 ---
 # Poster Metadata
 title: "Studying Star Formation Using High-Resolution Numerical Simulations of Galaxy Formation"
-date: 2018-01-23
+date: 2018-04-10
 college: "Weinberg College of Arts and Sciences"
 department: "Physics and Astronomy"
 tag: [Physical Sciences]

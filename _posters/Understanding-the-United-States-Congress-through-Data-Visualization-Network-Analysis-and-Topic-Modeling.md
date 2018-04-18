@@ -1,7 +1,7 @@
 ---
 # Visualization Metadata
 title: "Understanding the United States Congress through Data Visualization, Network Analysis, and Topic Modeling"
-date: 2018-01-23
+date: 2018-04-10
 college: "McCormick School of Engineering and Applied Science"
 department: "Biomedical Engineering"
 tag: [Engineering]

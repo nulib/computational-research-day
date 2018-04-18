@@ -1,7 +1,7 @@
 ---
 # Poster Metadata
 title: "Strategic failure? The impact of failed legislation on enacted legislation"
-date: 2018-01-23
+date: 2018-04-10
 college: "Weinberg College of Arts and Sciences"
 department: "Political Science"
 tag: [Social Sciences]

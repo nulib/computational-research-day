@@ -1,7 +1,7 @@
 ---
 # Poster Metadata
 title: "Targeting new HIV prevention strategies through the combination of research and public health surveillance data"
-date: 2018-01-23
+date: 2018-04-10
 college: "Feinberg School of Medicine"
 department: "Medical Social Sciences"
 tag: [Social Sciences]

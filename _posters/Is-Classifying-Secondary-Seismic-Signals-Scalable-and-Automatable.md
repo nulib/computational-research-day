@@ -1,7 +1,7 @@
 ---
 # Poster Metadata
 title: "Is Classifying Secondary Seismic Signals Scalable and Automatable?"
-date: 2018-01-23
+date: 2018-04-10
 college: "Weinberg College of Arts and Sciences"
 department: "Earth and Planetary Science"
 tag: [Physical Sciences]

@@ -1,7 +1,7 @@
 ---
 # Poster Metadata
 title: "Programming Prescriptions: A Clinician Usable Patient-Oriented Prescription Programming Language"
-date: 2018-01-23
+date: 2018-04-10
 college: "McCormick School of Engineering and Applied Sciences"
 department: "Electrical Engineering & Computer Science"
 tag: [Engineering]

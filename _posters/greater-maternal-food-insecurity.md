@@ -1,7 +1,7 @@
 ---
 # Poster Metadata
 title: "Greater Maternal Food Insecurity is Associated with Higher Infant Morbidity Symptoms in Western Kenya"
-date: 2018-01-23
+date: 2018-04-10
 college: "Weinberg College of Arts and Sciences"
 department: "Anthropology"
 tag: [Social Sciences]
