@@ -35,6 +35,7 @@ layout: default
             			<p class="subhead">{{ page.title }}</p>
                   <h4>{{ page.authors }}</h4>
                   <h6 style="color:#4e2a84">{{ page.department }}</h6>
+                  <h6 style="color:#000;">{{ page.date | date: "%B, %Y" }}
                   <h6>DOI: <a href="https://doi.org/{{page.doi}}"> {{ page.doi }}</a></h6>
             			<a class="button" target="_blank" href="{{ page.poster_pdf }}">Download</a>
             		</div>
