@@ -7,7 +7,7 @@ license            : "None"
 url                :
 baseurl            :
 encoding           : utf-8
-google_analytics   : UA-116823108-1
+google_analytics   : "UA-116823108-1"
 
 
 # Editorial
