@@ -1,5 +1,3 @@
 .sass-cache/*
-assets/images/*
-assets/pdfs/*
 _site/*
 s3_website.yml
