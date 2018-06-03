@@ -6,6 +6,7 @@ date: 2018-04-10
 college: "McCormick School of Engineering and Applied Science"
 department: "Engineering Sciences and Applied Mathematics"
 tag: [Engineering]
+doi: "10.21985/N2R714"
 abstract: "I present an interactive visualization for the US Congress members' ideology. The data used are ideology scores of US Congress members 1789-2015. The ideology scores are quantified from the Congress members' voting records using the DW-NOMINATE method, which puts Congress members with similar voting patterns closer together. This interactive visualization shows a clear picture of the polarization in the US Congress over time, and offers a platform for people to explore the history of ideology changes in congress."
 award: "Best Interactive"
 # Embed
