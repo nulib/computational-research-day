@@ -6,6 +6,7 @@ date: 2018-04-10
 department: "Electrical Engineering and Computer Science"
 college: "McCormick School of Engineering and Applied Science"
 tag: [Engineering]
+doi: "10.21985/N2VT5F"
 abstract: "Three-dimensional imaging techniques have been widely used in both industry and academia. Time-of-flight (ToF) sensors offer a promising method of 3D imaging due to compact size and low complexity. However, state-of-the-art ToF sensors only have depth resolutions of centimeters due to limitations in the modulation frequencies that can be used. In this paper, we propose a technique to generate modulation frequencies as high as 1 THz using optical superheterodyne interferometry. Our proposed system provides great flexibility in imaging range and resolution. We experimentally demonstrate an increase in depth resolution by an order of magnitude relative to currently available commercial ToF cameras."
 image: /assets/images/2018/davidhead_animation.gif
 ---

@@ -6,6 +6,7 @@ date: 2018-04-10
 department: "Physics and Astronomy"
 college: "Weinberg College of Arts and Sciences"
 tag: [Physical Sciences]
+doi: "10.21985/N2R112"
 abstract: "This is a visualization of an event reconstructed in CMS HGCal. This event is consist of 10 pions with a transverse momentum of 35 GeV. The reconstruction algorithm groups all valid energy deposits (hits) into clusters, each incoming particle having one or a few corresponding clusters, so that the energy of incoming particles can be calculated. This plot illustrates that our GPU-accelerated reconstruction produces a visually correct result of hit clusters: 10 generated pions, shown as ten white straight lines,  are shot from the origin into HGCal, causing thousands of hits. For each incoming pion, the reconstruction successfully produces one or a few clusters of hits, indicated by the colors. The cluster centers are shown as white squares, sizes of which correspond to cluster energies."
 # embed
 plotly: "//plot.ly/~zihengchen/61.embed"

@@ -6,6 +6,7 @@ date: 2018-04-10
 college: "McCormick School of Engineering and Applied Sciences"
 department: "Electrical Engineering and Computer Science"
 tag: [Engineering]
+doi: "10.21985/N2N98J"
 abstract: "Real-time free-viewpoint 3D movie of a human face raw data, measured with the single-shot 3D movie camera."
 # Embed
 youtube: https://www.youtube.com/embed/Y_d0GWk8Zqo?rel=0&amp;showinfo=0
