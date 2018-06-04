@@ -1,6 +1,5 @@
 ---
 layout: none
-permalink: /oai/
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <Repository xmlns="http://www.openarchives.org/OAI/2.0/static-repository"
@@ -10,7 +9,7 @@ permalink: /oai/
                                 http://www.openarchives.org/OAI/2.0/static-repository.xsd">
   <Identify>
     <oai:repositoryName>{{ site.title }}</oai:repositoryName>
-    <oai:baseURL>http://{{site.url}}/oai/</oai:baseURL>
+    <oai:baseURL>http://crd.northwestern.edu</oai:baseURL>
     <oai:protocolVersion>2.0</oai:protocolVersion>
     <oai:adminEmail>chris-diaz@northwestern.edu</oai:adminEmail>
     <oai:earliestDatestamp>2018-04-10</oai:earliestDatestamp>
