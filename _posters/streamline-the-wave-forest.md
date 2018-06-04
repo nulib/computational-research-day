@@ -3,7 +3,7 @@
 title: "Streamline the Wave Forecast: Computing Tsunamis for Fictitious Earthquakes in Fake Oceans"
 date: 2018-04-10
 college: "Weinberg College of Arts and Sciences"
-department: "Earth & Planetary Sciences"
+department: "Earth and Planetary Sciences"
 tag: [Physical Sciences]
 authors: "Amir Salaree, et al."
 doi: "10.21985/N2WX18"

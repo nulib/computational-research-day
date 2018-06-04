@@ -3,7 +3,7 @@
 title: "Creating a Framework for Evaluating the Effectiveness of Various Search Strategies in the Small-World Phenomenon"
 date: 2018-04-10
 college: "McCormick School of Engineering and Applied Science"
-department: "Electrical Engineering & Computer Science"
+department: "Electrical Engineering and Computer Science"
 tag: [Engineering]
 authors: "Matt Nicholson, et al."
 doi: "10.21985/N21M5X"

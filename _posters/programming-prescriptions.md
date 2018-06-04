@@ -3,7 +3,7 @@
 title: "Programming Prescriptions: A Clinician Usable Patient-Oriented Prescription Programming Language"
 date: 2018-04-10
 college: "McCormick School of Engineering and Applied Sciences"
-department: "Electrical Engineering & Computer Science"
+department: "Electrical Engineering and Computer Science"
 tag: [Engineering]
 authors: "Spencer P. Florence, et al."
 doi: "10.21985/N22M4V"

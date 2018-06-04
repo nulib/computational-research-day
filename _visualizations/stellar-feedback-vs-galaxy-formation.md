@@ -4,7 +4,7 @@ title: "Stellar Feedback vs. Galaxy Formation"
 authors: "Alex Gurvich"
 date: 2018-04-10
 college: "Weinberg College of Arts and Sciences"
-department: "Physics & Astronomy"
+department: "Physics and Astronomy"
 tag: [Physical Sciences]
 doi: "10.21985/N20H5K"
 abstract: "This is a movie of three galaxy formation simulations I ran as part of my research.

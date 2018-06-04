@@ -3,7 +3,7 @@
 title: "Drivers of Seasonal Variability of Atmospheric Stagnation Features Under Anthropogenic Forcing Using a Climate Model Ensemble (CMIP5)"
 date: 2018-04-10
 college: "McCormick School of Engineering and Applied Science"
-department: "Earth & Planetary Sciences"
+department: "Earth and Planetary Sciences"
 tag: [Physical Sciences]
 authors: "Yuxi Suo, et al."
 doi: "10.21985/N2BM3Z"

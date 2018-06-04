@@ -3,7 +3,7 @@
 title: "Prediction of Black Hole Populations in Globular Clusters"
 date: 2018-04-10
 college: "Weinberg College of Arts and Sciences"
-department: "Physics & Astronomy"
+department: "Physics and Astronomy"
 tag: [Physical Sciences]
 authors: "Newlin Weatherford, et al."
 doi: "10.21985/N20Q3W"

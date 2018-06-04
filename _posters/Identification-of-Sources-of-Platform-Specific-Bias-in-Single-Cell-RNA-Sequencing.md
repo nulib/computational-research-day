@@ -3,7 +3,7 @@
 title: "Identification of Sources of Platform Specific Bias in Single Cell RNA Sequencing"
 date: 2018-04-10
 college: "Feinberg School of Medicine"
-department: "Pulmonary & Critical Care"
+department: "Pulmonary and Critical Care"
 tag: [Life Sciences]
 authors: "Rohan Verma, et al."
 doi: "10.21985/N2CX07"
