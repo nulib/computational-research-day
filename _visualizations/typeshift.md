@@ -13,6 +13,3 @@ project_url: "https://angoodkind.shinyapps.io/TypeShift/"
 ---
 #### Description
 The interface displays a typing session using a line of points, and allows for within-session filtering and comparison to other typing sessions.
-
-#### Abstract
-{{ page.abstract }}

@@ -11,5 +11,3 @@ abstract: "Our research group is currently working to develop the first cross-cu
 project_url: "http://sites.northwestern.edu/hwise/"
 image: /assets/images/2018/Fetching_Water.png
 ---
-#### Abstract
-{{ page.abstract }}

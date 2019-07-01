@@ -13,6 +13,3 @@ image: /assets/images/2018/Quadratic.png
 ---
 #### Description
 We discovered that single layers of copper-bismuth nano sheets, called Cubine, could be exfoliated from bulk CuBi. This 2D material has remarkable properties and can be readily intercalated with lithium (green spheres), making it a promising candidate as an anode in lithium-ion batteries.
-
-#### Abstract
-{{ page.abstract }}

@@ -12,6 +12,3 @@ prezi: "https://prezi.com/embed/yvqu4hrcexig/?bgcolor=ffffff&amp;lock_to_path=0&
 ---
 #### Description
 Gender is complicated. But that’s okay! This interactive graphic goes “beyond the binary,” with a constellation of over 40 gender identities, definitions, & images. Instead of Man vs. Woman, we use Masculine, Feminine, Both, and Neither to describe the gender spectrum.
-
-#### Abstract
-{{ page.abstract }}

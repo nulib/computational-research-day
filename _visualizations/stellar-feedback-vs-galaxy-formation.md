@@ -15,6 +15,3 @@ youtube: https://www.youtube.com/embed/noFAbbAF-xc?rel=0&amp;showinfo=0
 ---
 #### Description
 Three simulations of identical galaxies with varying levels of energy returned to stars’ surroundings after they form. When stars return lots of energy (right) it blows up the galaxy. When they don’t (left) it is able to form a very stable disk.
-
-#### Abstract
-{{ page.abstract }}

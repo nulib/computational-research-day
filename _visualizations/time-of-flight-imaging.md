@@ -12,6 +12,3 @@ image: /assets/images/2018/davidhead_animation.gif
 ---
 #### Description
 This is a 3D visualization and scanning of a plaster bust of David using laser interferometry. We achieve micrometer resolution of David with macro stand-off distance.
-
-#### Abstract
-{{ page.abstract }}

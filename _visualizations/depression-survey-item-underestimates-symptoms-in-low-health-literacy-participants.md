@@ -12,6 +12,3 @@ image: /assets/images/2018/depression-survey-item.jpg
 ---
 #### Description
 Item characteristic curves (ICCs) show differential item functioning (DIF) for the depression item “I felt worthless.” Individuals with limited health literacy responded differently to this question about depression, showing that their level of depression may be underestimated.
-
-#### Abstract
-{{ page.abstract }}

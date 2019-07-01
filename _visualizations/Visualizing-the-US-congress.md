@@ -16,9 +16,6 @@ d3: true
 #### Description
 The ideology scores of US Congress members over time, quantified from how similarly they voted on bills.
 
-#### Abstract
-{{ page.abstract }}
-
 #### How to use this visualization
 * Each circle represents a congress member
 * The colors represent party membership

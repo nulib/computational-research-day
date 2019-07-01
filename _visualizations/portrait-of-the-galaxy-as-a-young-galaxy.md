@@ -12,6 +12,3 @@ image: /assets/images/2018/agurvich_galaxy_portrait.png
 ---
 #### Description
 A snapshot in time of a supercomputer simulation of a Milky Way-like galaxy. Each dot is a particle in the simulation. The spiral disk of blue stars is mimicked in the red gas tendrils, while the yellow dark matter forms a spherical “halo.”
-
-#### Abstract
-{{ page.abstract }}

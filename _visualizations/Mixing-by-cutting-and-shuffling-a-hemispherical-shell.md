@@ -12,6 +12,3 @@ image: /assets/images/2018/flynn_mixing_sequence.png
 ---
 #### Description
 Intricate mixing patterns emerge when a hemisphere (viewed from below) is repeatedly cut into four pieces and rearranged (shuffled). The hemisphere mixes in some regions (gray) but not in others. Funded by [NSF CMMI 1435065](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1435065).
-
-#### Abstract
-{{ page.abstract }}

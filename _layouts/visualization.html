@@ -23,84 +23,34 @@ layout: default
 
           <main id="main-content" class="content">
 
-            <div class="section background-select no-bottom-margin">
-            	<!-- note: no section top -->
-            	<div class="background-select-image">
-            		<div class="contain-970">
-            			<h3>{{ page.tag }}</h3>
-                  {% if page.award %}
-                  <h4>{{ page.award }}</h4>
-                  {% endif %}
-            			<p class="subhead">{{ page.title }}</p>
-                  <h4>{{ page.authors }}</h4>
-                  <h6 style="color:#4e2a84">{{ page.department }}</h6>
-                  <h6 style="color:#000;">{{ page.date | date: "%B, %Y" }}</h6>
-                  {% if page.doi %}
-                  <h6>DOI: <a href="https://doi.org/{{page.doi}}"> {{ page.doi }}</a></h6>
-                  {% endif %}
-                  {% if page.project_url %}
-                  <a class="button" target="_blank" href="{{ page.project_url }}">Visit Project Website</a>
-                  {% endif %}
-            		</div>
-            	</div>
-            </div>
-
-            <body class="standard-content narrow-content">
-              <div class="contain-970">
-                {{ content }}
-              </div>
-            </body>
-
-            <body class="landing-page">
-
-            <div class="section contain-970" style="margin-top:2em;">
-                <h3>Related</h3>
-
-              {% comment %}---> the maximum number of related to posts
-                                  to be printed {% endcomment %}
-                {% assign maxRelated = 2 %}
-
-                {% comment %}---> the minimum number of common tags
-                                  to have for a post to be considered
-                                  as a related post {% endcomment %}
-                {% assign minCommonTags =  1 %}
-
-                {% assign maxRelatedCounter = 0 %}
-
-                {% for post in site.visualizations %}
-
-                  {% assign sameTagCount = 0 %}
-                  {% assign commonTags = '' %}
-
-                  {% for tag in post.tags %}
-                    {% comment %}---> Only compare if post is
-                                      not same as current page {% endcomment %}
-                    {% if post.url != page.url %}
-                      {% if page.tags contains tag %}
-                        {% assign sameTagCount = sameTagCount | plus: 1 %}
-                        {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
-                        {% assign commonTags = commonTags | append: tagmarkup %}
-                      {% endif %}
-                    {% endif %}
-                  {% endfor %}
-
-                  {% if sameTagCount >= minCommonTags %}
-                    <div style="margin-top:2em;">
-                    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-                    <h6>{{ post.authors }}, {{ post.department }}</h6>
-                    <p>{{ post.abstract | truncatewords: 75 }}<a href="{{ post.url }}">Read on</a></p>
+            <div class="section large-feature">
+                    <h2>{{ page.title }}</h2>
+                    <h3>{{ page.tag }}</h3>
+                    <div class="large-feature-inner">
+                      <div class="content-side">
+                        <h4>Abstract</h4>
+                        <div class="text">
+                          <p>{{ page.abstract }}</p>
+                          <p>{{ content }}</p>
+                        </div>
+                      </div>
+                        <div class="right-side">
+                          <h4>{{ page.authors }}</h4>
+                          <p style="color:#4e2a84">{{ page.department }}</p>
+                          <p style="color:#000;">{{ page.date | date: "%B, %Y" }}</p>
+                          {% if page.award %}
+                          <p>{{ page.award }}</p>
+                          {% endif %}
+                          {% if page.doi %}
+                          <p>DOI: <a href="https://doi.org/{{page.doi}}"> {{ page.doi }}</a></p>
+                          {% endif %}
+                          <a class="button" target="_blank" href="{{ page.poster_pdf }}">Download</a>
+                          {% if page.project_url %}
+                          <a class="button" target="_blank" href="{{ page.project_url }}">Visit Project Website</a>
+                          {% endif %}
+                        </div>
                     </div>
-                    {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-                    {% if maxRelatedCounter >= maxRelated %}
-                      {% break %}
-                    {% endif %}
-                  {% endif %}
-
-                {% endfor %}
-
             </div>
-             </div>
-            </body
           </main>
         </div>
     <footer>

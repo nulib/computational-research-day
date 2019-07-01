@@ -13,7 +13,4 @@ image: /assets/images/2018/Neray-1-Individual-FB-Networks.jpg
 #### Description
 These images show the Facebook connectivity of different relational subgroups (e.g., family, work) for LGBTQ youth with different patterns of outness. By collapsing and simplifying these Facebook networks, we can see patterns in how LGBTQ youth manage their identities and relationships.
 
-#### Abstract
-{{ page.abstract }}
-
 ![Cluster Facebook Networks](/assets/images/2018/Neray-2-Cluster-FB-Networks.jpg)
