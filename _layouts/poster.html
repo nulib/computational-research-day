@@ -2,7 +2,6 @@
 layout: default
 ---
 <body class="landing-page">
-    <a id="top"></a>
     <a href="#main-content" class="screen-reader-shortcut">Skip to main content</a>
     <!--[if lt IE 9]>
     <div id="ie">
@@ -24,30 +23,28 @@ layout: default
 
           <main id="main-content" class="content">
 
-            <div class="section background-select">
-            	<!-- note: no section top -->
-            	<div class="background-select-image">
-            		<div class="contain-970">
-            			<h3>{{ page.tag }}</h3>
-                  {% if page.award %}
-                  <h4>{{ page.award }}</h4>
-                  {% endif %}
-            			<p class="subhead">{{ page.title }}</p>
-                  <h4>{{ page.authors }}</h4>
-                  <h6 style="color:#4e2a84">{{ page.department }}</h6>
-                  <h6 style="color:#000;">{{ page.date | date: "%B, %Y" }}
-                  <h6>DOI: <a href="https://doi.org/{{page.doi}}"> {{ page.doi }}</a></h6>
-            			<a class="button" target="_blank" href="{{ page.poster_pdf }}">Download</a>
-            		</div>
-            	</div>
+            <div class="section large-feature">
+                    <h2>{{ page.title }}</h2>
+                    <h3>{{ page.tag }}</h3>
+                    <div class="large-feature-inner">
+                      <div class="content-side">
+                        <h4>Abstract</h4>
+                        <div class="text">
+                          <p>{{ page.abstract }}</p>
+                        </div>
+                      </div>
+                        <div class="right-side">
+            			        <h4>{{ page.authors }}</h4>
+                          <p style="color:#4e2a84">{{ page.department }}</p>
+                          <p style="color:#000;">{{ page.date | date: "%B, %Y" }}</p>
+                          {% if page.award %}
+                          <p>{{ page.award }}</p>
+                          {% endif %}
+                          <p>DOI: <a href="https://doi.org/{{page.doi}}"> {{ page.doi }}</a></p>
+                          <a class="button" target="_blank" href="{{ page.poster_pdf }}">Download</a>
+                        </div>
+                    </div>
             </div>
-
-            <body class="standard-content narrow-content">
-              <div class="contain-970">
-                <h3>Abstract</h3>
-                <p>{{ page.abstract }}</p>
-              </div>
-            </body>
 
             <div class="section contain-970">
                 <h3>Related</h3>
